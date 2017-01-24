@@ -1,13 +1,14 @@
 'use strict';
-  const express = require('express'),
-  var requestProxy = require('express-request-proxy'),
-  const port = process.env.PORT || 3000,
-  const app = express();
+
+var requestProxy = require('express-request-proxy'),
+  express = require('express'),
+  port = process.env.PORT || 3000,
+  app = express();
 
 var proxyNYTimes = function(request, response) {
   console.log('Routing NY times request for', request.params[0]);
   (requestProxy({
-    url: 'https://api.nytimes.com/svc/topstories/v2/home.json' + request.params[0],
+    url: 'https://api.nytimes.com' + request.params[0],
     headers: { Authorization: 'token ' + process.env.NYT_TOKEN }
   }))(request, response);
 };
@@ -24,3 +25,5 @@ app.get('*', function(request, response) {
 app.listen(port, function() {
   console.log('Server started on port ' + port + '!');
 });
+
+// https://api.nytimes.com/svc/topstories/v2/home.json
