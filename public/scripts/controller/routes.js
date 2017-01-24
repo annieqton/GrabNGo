@@ -1,0 +1,2 @@
+page('/', nytaView.index);
+page();

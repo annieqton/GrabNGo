@@ -1,15 +1,15 @@
 'use strict';
 
-var requestProxy = require('express-request-proxy'),
-  express = require('express'),
-  port = process.env.PORT || 3000,
-  app = express();
+const requestProxy = require('express-request-proxy'),
+const express = require('express'),
+const  port = process.env.PORT || 3000,
+const  app = express();
 
 var proxyNYTimes = function(request, response) {
   console.log('Routing NY times request for', request.params[0]);
   (requestProxy({
     url: 'https://api.nytimes.com' + request.params[0],
-    headers: { Authorization: 'token ' + process.env.NYT_TOKEN }
+    headers: { Authorization: 'token 813e4209609647368542b95b4e055575'}
   }))(request, response);
 };
 
