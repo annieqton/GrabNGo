@@ -15,7 +15,7 @@ var proxyNYTimes = function(request, response) {
 
 app.get('/nytimes/*', proxyNYTimes);
 
-app.use(express.static('./'));
+app.use(express.static('./public'));
 
 app.get('*', function(request, response) {
   console.log('New request:', request.url);
