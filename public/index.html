@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/styles/modules.css">
     <title>grab'n go</title>
 
-    <script type="text/x-handlebars-template">
+    <script id="#nyta-template" type="text/x-handlebars-template">
       <article class="clearfix">
         <section><a href="{{url}}">
           <h1>{{title}}</h1>
@@ -48,36 +48,51 @@
       <section id="nyta" class="tab-content">
 
       </section>
-      <section id="settings" class="tab-content">
-        <form class="" action="index.html" method="post">
-          <label for="username">Username: </label>
-          <input type="text" name="username" value="">
-        </form>
-        <div class="preferences">
-          <h4>News Preferences (please select categories below)</h4>
-        </div>
-        <div class="preference-buttons">
-          <button type="button" name="world">World</button>
-          <button type="button" name="us">US</button>
-          <button type="button" name="politics">Politics</button>
-          <button type="button" name="business">Business</button>
-          <button type="button" name="technology">Technology</button>
-          <button type="button" name="science">Science</button>
-          <button type="button" name="health">Health</button>
-          <button type="button" name="sports">Sports</button>
-          <button type="button" name="arts">Arts</button>
-          <button type="button" name="style">Style</button>
-          <button type="button" name="food">Food</button>
-          <button type="button" name="travel">Travel</button>
-        </div>
-        <div class="submit">
-          <button type="button" name="save">Save</button>
-        </div>
-      </section>
-      <section id="about" class="tab-content">
 
+      <section id="settings" class="tab-content">
+        <h4>News Preferences (please select categories below)</h4>
+        <form class="preferences" action="" method="post">
+
+          <input type="text" id="username">Username: </input>
+
+          <input type="checkbox" id="world" value="world">World</input>
+          <input type="checkbox" id="us" value="us">US</input>
+          <input type="checkbox" id="politics" value="politics">Politics</input>
+          <input type="checkbox" id="technology" value="technology">Technology</input>
+          <input type="checkbox" id="science" value="science">Science</input>
+          <input type="checkbox" id="health" value="health">Health</input>
+          <input type="checkbox" id="sports" value="sports">Sports</input>
+          <input type="checkbox" id="arts" value="arts">Arts</input>
+          <input type="checkbox" id="style" value="style">Style</input>
+          <input type="checkbox" id="food" value="food">Food</input>
+          <input type="checkbox" id="travel" value="travel">Travel</input>
+
+          <input type="submit" value="submit">Save</input>
+
+        </form>
       </section>
+
+      <section id="about" class="tab-content"></section>
+
     </main>
     <footer> Powered by NY Times and khalidTIMES</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/vendor/scripts/handlebars.js"></script>
+    <script src="/vendor/scripts/marked.js"></script>
+    <script src="/vendor/scripts/page.js"></script>
+
+    <script src="/scripts/model/nyta.js"></script>
+
+    <script src="/scripts/view/nytaView.js"></script>
+    <script src="/scripts/view/settingsView.js"></script>
+    <script src="/scripts/view/aboutView.js"></script>
+
+    <script src="/scripts/controller/nytaController.js"></script>
+    <script src="/scripts/controller/settingsController.js"></script>
+    <script src="/scripts/controller/aboutController.js"></script>
+
+    <script src="/scripts/controller/routes.js"></script>
+
   </body>
 </html>
