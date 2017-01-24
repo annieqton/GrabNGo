@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/vendor/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/icons.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/modules.css">
+    <title>grab'n go</title>
+
+    <script type="text/x-handlebars-template">
+      <article class="clearfix">
+        <section><a href="{{url}}">
+          <h1>{{title}}</h1>
+          <div class="byline">
+            By <address>{{byline}}</address>
+            <p>{{published_date}}</p>
+          </div>
+          <div class="abstract">{{abstract}}</div>
+          </a>
+        </section>
+      </article>
+    </script>
+
+  </head>
+
+  <body>
+    <header class="site-header clearfix">
+      <section class="heading-group-h1">
+        <h1>grab 'n go</h1>
+        <!-- append date -->
+        <div id="date">monday june 2017</div>
+      </section>
+      <nav class="main-nav">
+        <div class="icon-menu"></div>
+        <ul>
+          <li class="tab" data-content="articles"><a href="/" class="icon-home"> HOME</a></li>
+          <!-- make sure class for setting is correct per icon moon -->
+          <li class="tab" data-content="settings"><a href="/settings" class="icon-address-book"> SETTINGS</a></li>
+          <li class="tab" data-content="about"><a href="/about" class="icon-address-book"> ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="nyta" class="tab-content">
+
+      </section>
+      <section id="settings" class="tab-content">
+        <form class="" action="index.html" method="post">
+          <label for="username">Username: </label>
+          <input type="text" name="username" value="">
+        </form>
+        <div class="preferences">
+          <h4>News Preferences (please select categories below)</h4>
+        </div>
+        <div class="preference-buttons">
+          <button type="button" name="world">World</button>
+          <button type="button" name="us">US</button>
+          <button type="button" name="politics">Politics</button>
+          <button type="button" name="business">Business</button>
+          <button type="button" name="technology">Technology</button>
+          <button type="button" name="science">Science</button>
+          <button type="button" name="health">Health</button>
+          <button type="button" name="sports">Sports</button>
+          <button type="button" name="arts">Arts</button>
+          <button type="button" name="style">Style</button>
+          <button type="button" name="food">Food</button>
+          <button type="button" name="travel">Travel</button>
+        </div>
+        <div class="submit">
+          <button type="button" name="save">Save</button>
+        </div>
+      </section>
+      <section id="about" class="tab-content">
+
+      </section>
+    </main>
+    <footer> Powered by NY Times and khalidTIMES</footer>
+  </body>
+</html>

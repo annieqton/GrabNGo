@@ -1,0 +1,2334 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2017 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2017-01-23T17:17:35-05:00",
+  "num_results": 33,
+  "results": [
+    {
+      "section": "Briefing",
+      "subsection": "",
+      "title": "Donald Trump, Syria, Emperor Akihito: Your Morning Briefing",
+      "abstract": "Here’s what you need to know to start your day.",
+      "url": "http://www.nytimes.com/2017/01/23/briefing/asia-australia-briefing.html",
+      "byline": "By CHARLES McDERMID",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T16:40:00-05:00",
+      "created_date": "2017-01-23T14:01:04-05:00",
+      "published_date": "2017-01-23T14:01:04-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/nytnow/24BRIEFING-asia-slide-O1XP/24BRIEFING-asia-slide-O1XP-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/nytnow/24BRIEFING-asia-slide-O1XP/24BRIEFING-asia-slide-O1XP-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/nytnow/24BRIEFING-asia-slide-O1XP/24BRIEFING-asia-slide-O1XP-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/nytnow/24BRIEFING-asia-slide-O1XP/24BRIEFING-asia-slide-O1XP-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/nytnow/24BRIEFING-asia-slide-O1XP/24BRIEFING-asia-slide-O1XP-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Doug Mills/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kkHuRF"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Trump Abandons Trans-Pacific Partnership, Obama’s Signature Trade Deal",
+      "abstract": "The decision at the start of the new administration is a signal that the president plans to follow through on promises to be aggressive with foreign competitors.",
+      "url": "http://www.nytimes.com/2017/01/23/us/politics/tpp-trump-trade-nafta.html",
+      "byline": "By PETER BAKER",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T12:29:48-05:00",
+      "created_date": "2017-01-23T11:57:40-05:00",
+      "published_date": "2017-01-23T11:57:40-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "International Trade and World Market",
+        "United States Politics and Government",
+        "Trans-Pacific Partnership"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24trump-1/24trump-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump signing memoranda in the Oval Office on Monday. He sharply criticized the Trans-Pacific Partnership during last year’s campaign, calling it a bad deal for American workers.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24trump-1/24trump-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump signing memoranda in the Oval Office on Monday. He sharply criticized the Trans-Pacific Partnership during last year’s campaign, calling it a bad deal for American workers.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24trump-1/24trump-1-articleInline.jpg",
+          "format": "Normal",
+          "height": 132,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump signing memoranda in the Oval Office on Monday. He sharply criticized the Trans-Pacific Partnership during last year’s campaign, calling it a bad deal for American workers.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24trump-1/24trump-1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump signing memoranda in the Oval Office on Monday. He sharply criticized the Trans-Pacific Partnership during last year’s campaign, calling it a bad deal for American workers.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24trump-1/24trump-1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1426,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump signing memoranda in the Oval Office on Monday. He sharply criticized the Trans-Pacific Partnership during last year’s campaign, calling it a bad deal for American workers.",
+          "copyright": "Doug Mills/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jQSDwo"
+    },
+    {
+      "section": "World",
+      "subsection": "",
+      "title": "Trump Revives Ban on Foreign Aid to Health Groups if They Give Abortion Counseling",
+      "abstract": "Anti-abortion groups welcomed President Trump’s decision, while advocates of women’s reproductive rights said it would endanger women in poor countries by curtailing access to health services.",
+      "url": "http://www.nytimes.com/2017/01/23/world/trump-ban-foreign-aid-abortions.html",
+      "byline": "By SOMINI SENGUPTA",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T16:27:13-05:00",
+      "created_date": "2017-01-23T13:02:43-05:00",
+      "published_date": "2017-01-23T13:02:43-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Abortion",
+        "Foreign Aid"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24nations/24nations-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump signed a presidential memoranda Monday, one of his first orders as president, freezing federal funding to health providers abroad who discuss abortion as a family-planning option.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24nations/24nations-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump signed a presidential memoranda Monday, one of his first orders as president, freezing federal funding to health providers abroad who discuss abortion as a family-planning option.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24nations/24nations-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump signed a presidential memoranda Monday, one of his first orders as president, freezing federal funding to health providers abroad who discuss abortion as a family-planning option.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24nations/24nations-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump signed a presidential memoranda Monday, one of his first orders as president, freezing federal funding to health providers abroad who discuss abortion as a family-planning option.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24nations/24nations-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump signed a presidential memoranda Monday, one of his first orders as president, freezing federal funding to health providers abroad who discuss abortion as a family-planning option.",
+          "copyright": "Doug Mills/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kkuueB"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Rocky First Weekend for Trump Troubles Even His Top Aides",
+      "abstract": "To the extent that there was a plan to take advantage of the first days of his administration, when a president is usually at his maximum leverage, President Trump threw it aside.",
+      "url": "http://www.nytimes.com/2017/01/22/us/politics/donald-trump-aides-rocky-first-weekend.html",
+      "byline": "By PETER BAKER, GLENN THRUSH and MAGGIE HABERMAN",
+      "item_type": "Article",
+      "updated_date": "2017-01-22T21:50:07-05:00",
+      "created_date": "2017-01-22T21:50:07-05:00",
+      "published_date": "2017-01-22T21:50:07-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States Politics and Government"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J",
+        "Conway, Kellyanne",
+        "Spicer, Sean M (1971- )"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/23ASSESS-01p/23ASSESS-01p-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left, Kellyanne Conway, Jared Kushner, Stephen K. Bannon and Reince Priebus, all Trump advisers, were sworn in at a White House ceremony on Sunday.",
+          "copyright": "Al Drago/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/23ASSESS-01p/23ASSESS-01p-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left, Kellyanne Conway, Jared Kushner, Stephen K. Bannon and Reince Priebus, all Trump advisers, were sworn in at a White House ceremony on Sunday.",
+          "copyright": "Al Drago/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/23ASSESS-01p/23ASSESS-01p-articleInline.jpg",
+          "format": "Normal",
+          "height": 124,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left, Kellyanne Conway, Jared Kushner, Stephen K. Bannon and Reince Priebus, all Trump advisers, were sworn in at a White House ceremony on Sunday.",
+          "copyright": "Al Drago/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/23ASSESS-01p/23ASSESS-01p-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left, Kellyanne Conway, Jared Kushner, Stephen K. Bannon and Reince Priebus, all Trump advisers, were sworn in at a White House ceremony on Sunday.",
+          "copyright": "Al Drago/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/23ASSESS-01p/23ASSESS-01p-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1340,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "From left, Kellyanne Conway, Jared Kushner, Stephen K. Bannon and Reince Priebus, all Trump advisers, were sworn in at a White House ceremony on Sunday.",
+          "copyright": "Al Drago/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jOIvEv"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Senators Propose Giving States Option to Keep Affordable Care Act",
+      "abstract": "Bill Cassidy of Louisiana and Susan Collins of Maine, both Republicans, say states could also choose to receive federal money for their own plans.",
+      "url": "http://www.nytimes.com/2017/01/23/us/politics/senate-affordable-care-act-bill-cassidy-susan-collins-trump.html",
+      "byline": "By ROBERT PEAR",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T13:05:22-05:00",
+      "created_date": "2017-01-23T13:05:23-05:00",
+      "published_date": "2017-01-23T13:05:23-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States Politics and Government",
+        "Patient Protection and Affordable Care Act (2010)"
+      ],
+      "org_facet": [
+        "Democratic Party",
+        "Republican Party",
+        "House of Representatives",
+        "Senate"
+      ],
+      "per_facet": [
+        "Cassidy, Bill (1957- )",
+        "Collins, Susan M",
+        "Schumer, Charles E",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24health/24health-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Senators Bill Cassidy of Louisiana and Susan Collins of Maine, both Republicans, discussed their replacement plan for the Affordable Care Act during a news conference at the Capitol on Monday.",
+          "copyright": "Jim Lo Scalzo/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24health/24health-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Senators Bill Cassidy of Louisiana and Susan Collins of Maine, both Republicans, discussed their replacement plan for the Affordable Care Act during a news conference at the Capitol on Monday.",
+          "copyright": "Jim Lo Scalzo/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24health/24health-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Senators Bill Cassidy of Louisiana and Susan Collins of Maine, both Republicans, discussed their replacement plan for the Affordable Care Act during a news conference at the Capitol on Monday.",
+          "copyright": "Jim Lo Scalzo/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24health/24health-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Senators Bill Cassidy of Louisiana and Susan Collins of Maine, both Republicans, discussed their replacement plan for the Affordable Care Act during a news conference at the Capitol on Monday.",
+          "copyright": "Jim Lo Scalzo/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24health/24health-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Senators Bill Cassidy of Louisiana and Susan Collins of Maine, both Republicans, discussed their replacement plan for the Affordable Care Act during a news conference at the Capitol on Monday.",
+          "copyright": "Jim Lo Scalzo/European Pressphoto Agency"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jRcDiE"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Chelsea Clinton and Others Say, Leave Barron Trump Alone",
+      "abstract": "Outrage followed an “S.N.L.” writer’s tweet about the 10-year old. NBC suspended her indefinitely, and she apologized.",
+      "url": "http://www.nytimes.com/2017/01/23/arts/television/barron-trump-tweet-katie-rich-snl.html",
+      "byline": "By JONAH ENGEL BROMWICH",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T12:56:53-05:00",
+      "created_date": "2017-01-23T12:54:52-05:00",
+      "published_date": "2017-01-23T12:54:52-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Social Media",
+        "Saturday Night Live (TV Program)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Barron (2006- )",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/24xp-barron/24xp-barron-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Barron Trump, walking in the inaugural parade on Saturday. He would be the first son of a president since John F. Kennedy Jr. to occupy the White House.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/24xp-barron/24xp-barron-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Barron Trump, walking in the inaugural parade on Saturday. He would be the first son of a president since John F. Kennedy Jr. to occupy the White House.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/24xp-barron/24xp-barron-articleInline-v2.jpg",
+          "format": "Normal",
+          "height": 130,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Barron Trump, walking in the inaugural parade on Saturday. He would be the first son of a president since John F. Kennedy Jr. to occupy the White House.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/24xp-barron/24xp-barron-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Barron Trump, walking in the inaugural parade on Saturday. He would be the first son of a president since John F. Kennedy Jr. to occupy the White House.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/24xp-barron/24xp-barron-superJumbo-v2.jpg",
+          "format": "superJumbo",
+          "height": 1403,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Barron Trump, walking in the inaugural parade on Saturday. He would be the first son of a president since John F. Kennedy Jr. to occupy the White House.",
+          "copyright": "Doug Mills/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jR4bQc"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Marco Rubio Will Vote for Tillerson as Secretary of State",
+      "abstract": "Marco Rubio’s decision to approve Rex Tillerson, the former Exxon Mobil chief executive, as secretary of state, despite his close ties to Vladimir Putin, ended the threat to his confirmation.",
+      "url": "http://www.nytimes.com/2017/01/23/us/politics/donald-trump-administration.html",
+      "byline": "By ERIC LIPTON, MATT FLEGENHEIMER and ALAN RAPPEPORT",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T15:07:11-05:00",
+      "created_date": "2017-01-23T05:00:25-05:00",
+      "published_date": "2017-01-23T05:00:25-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Connecticut College",
+        "House of Representatives",
+        "Senate"
+      ],
+      "per_facet": [
+        "Spicer, Sean M (1971- )",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24hundredbriefing2/24hundredbriefing2-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump during a breakfast and listening session with business leaders in the Roosevelt Room of the White House on Monday.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24hundredbriefing2/24hundredbriefing2-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump during a breakfast and listening session with business leaders in the Roosevelt Room of the White House on Monday.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24hundredbriefing2/24hundredbriefing2-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump during a breakfast and listening session with business leaders in the Roosevelt Room of the White House on Monday.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24hundredbriefing2/24hundredbriefing2-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump during a breakfast and listening session with business leaders in the Roosevelt Room of the White House on Monday.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/us/24hundredbriefing2/24hundredbriefing2-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump during a breakfast and listening session with business leaders in the Roosevelt Room of the White House on Monday.",
+          "copyright": "Doug Mills/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kizq3B"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "",
+      "title": "After Success of Women’s March, a Question Remains: What’s Next?",
+      "abstract": "The challenge facing the organizers is figuring out how to channel the resolve and outrage of an organic protest into action that produces political change.",
+      "url": "http://www.nytimes.com/2017/01/22/us/after-success-of-womens-march-a-question-remains-whats-next.html",
+      "byline": "By SUSAN CHIRA and JONATHAN MARTIN",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T14:08:32-05:00",
+      "created_date": "2017-01-22T16:46:13-05:00",
+      "published_date": "2017-01-22T16:46:13-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Demonstrations, Protests and Riots",
+        "Women and Girls",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "Democratic Party"
+      ],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2kgdQNf"
+    },
+    {
+      "section": "Podcasts",
+      "subsection": "",
+      "title": "High Hopes on the National Mall",
+      "abstract": "We asked Trump’s supporters what they want from his presidency, minutes after he was sworn in on the National Mall.",
+      "url": "http://www.nytimes.com/2017/01/21/podcasts/high-hopes-on-the-national-mall.html",
+      "byline": "By MICHAEL BARBARO",
+      "item_type": "Article",
+      "updated_date": "2017-01-21T11:18:33-05:00",
+      "created_date": "2017-01-21T11:18:34-05:00",
+      "published_date": "2017-01-21T11:18:34-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Podcasts",
+        "United States Politics and Government"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/us/21RUNUP2/21RUNUP2-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Trump supporters on the National Mall on Inauguration Day.",
+          "copyright": "Todd Heisler/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/us/21RUNUP2/21RUNUP2-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Trump supporters on the National Mall on Inauguration Day.",
+          "copyright": "Todd Heisler/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/us/21RUNUP2/21RUNUP2-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Trump supporters on the National Mall on Inauguration Day.",
+          "copyright": "Todd Heisler/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/us/21RUNUP2/21RUNUP2-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Trump supporters on the National Mall on Inauguration Day.",
+          "copyright": "Todd Heisler/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/us/21RUNUP2/21RUNUP2-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Trump supporters on the National Mall on Inauguration Day.",
+          "copyright": "Todd Heisler/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kcqX1T"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "",
+      "title": "At Least 18 Die as Tornadoes Sweep Southeast",
+      "abstract": "Thunderstorms and tornadoes took a heavy toll in Georgia and Mississippi, with damage also reported in Alabama, Louisiana and Texas.",
+      "url": "http://www.nytimes.com/2017/01/22/us/tornadoes-southeast-georgia-mississippi-death.html",
+      "byline": "By RICHARD FAUSSET and JONAH ENGEL BROMWICH",
+      "item_type": "Article",
+      "updated_date": "2017-01-22T19:21:36-05:00",
+      "created_date": "2017-01-22T09:57:58-05:00",
+      "published_date": "2017-01-22T09:57:58-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Tornadoes",
+        "Deaths (Fatalities)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Georgia",
+        "Mississippi",
+        "Texas",
+        "Southeastern States (US)"
+      ],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2kgb4ra"
+    },
+    {
+      "section": "Health",
+      "subsection": "",
+      "title": "Wider Racial Gap Found in Cervical Cancer Deaths",
+      "abstract": "A new study, which excluded women with hysterectomies, showed the disparity in death rates between blacks and whites was significantly wider.",
+      "url": "http://www.nytimes.com/2017/01/23/health/cervical-cancer-united-states-death-toll.html",
+      "byline": "By JAN HOFFMAN",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T00:01:13-05:00",
+      "created_date": "2017-01-23T00:01:14-05:00",
+      "published_date": "2017-01-23T00:01:14-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Cervical Cancer",
+        "Deaths (Fatalities)",
+        "Race and Ethnicity",
+        "Blacks",
+        "Hysterectomies"
+      ],
+      "org_facet": [
+        "Cancer (Journal)"
+      ],
+      "per_facet": [
+        "Rositch, Anne F"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/science/23CANCER/23CANCER-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A light micrograph through cancerous tissue of the cervix.",
+          "copyright": "CNRI/Science Source"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/science/23CANCER/23CANCER-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A light micrograph through cancerous tissue of the cervix.",
+          "copyright": "CNRI/Science Source"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/science/23CANCER/23CANCER-articleInline.jpg",
+          "format": "Normal",
+          "height": 126,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A light micrograph through cancerous tissue of the cervix.",
+          "copyright": "CNRI/Science Source"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/science/23CANCER/23CANCER-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A light micrograph through cancerous tissue of the cervix.",
+          "copyright": "CNRI/Science Source"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/science/23CANCER/23CANCER-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1361,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A light micrograph through cancerous tissue of the cervix.",
+          "copyright": "CNRI/Science Source"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kgO8In"
+    },
+    {
+      "section": "Travel",
+      "subsection": "",
+      "title": "Shanghai Dwellings Vanish, and With Them, a Way of Life",
+      "abstract": "Shikumen, traditional alleyway complexes, saw the birth of a uniquely Chinese version of Communism. A tour reveals what their erosion means.",
+      "url": "http://www.nytimes.com/2017/01/23/travel/shanghai-shikumen-architecture-homes-china.html",
+      "byline": "By TARAS GRESCOE",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T06:01:22-05:00",
+      "created_date": "2017-01-23T06:01:23-05:00",
+      "published_date": "2017-01-23T06:01:23-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Travel and Vacations",
+        "Historic Buildings and Sites",
+        "Architecture"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Shanghai (China)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/29/travel/29SHANGHAI/29SHANGHAI-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The exterior of the Museum of the First National Congress of the Chinese Communist Party in Shanghai.",
+          "copyright": "Lauryn Ishak for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/29/travel/29SHANGHAI/29SHANGHAI-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The exterior of the Museum of the First National Congress of the Chinese Communist Party in Shanghai.",
+          "copyright": "Lauryn Ishak for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/29/travel/29SHANGHAI/29SHANGHAI-articleInline.jpg",
+          "format": "Normal",
+          "height": 285,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The exterior of the Museum of the First National Congress of the Chinese Communist Party in Shanghai.",
+          "copyright": "Lauryn Ishak for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/29/travel/29SHANGHAI/29SHANGHAI-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The exterior of the Museum of the First National Congress of the Chinese Communist Party in Shanghai.",
+          "copyright": "Lauryn Ishak for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/29/travel/29SHANGHAI/29SHANGHAI-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2048,
+          "width": 1367,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The exterior of the Museum of the First National Congress of the Chinese Communist Party in Shanghai.",
+          "copyright": "Lauryn Ishak for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jPRfKz"
+    },
+    {
+      "section": "Opinion",
+      "subsection": "",
+      "title": "Why the C.D.C.’s Power to Quarantine Should Worry Us",
+      "abstract": "The administration of Donald J. Trump has even more authority to detain people than the Obama administration had during the Ebola crisis.",
+      "url": "http://www.nytimes.com/2017/01/23/opinion/why-the-cdcs-power-to-quarantine-should-worry-us.html",
+      "byline": "By KYLE EDWARDS, WENDY PARMET and SCOTT BURRIS",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T16:20:01-05:00",
+      "created_date": "2017-01-23T16:20:02-05:00",
+      "published_date": "2017-01-23T16:20:02-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Quarantines",
+        "Epidemics"
+      ],
+      "org_facet": [
+        "Centers for Disease Control and Prevention"
+      ],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/24edwards/24edwards-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Cristina Spanò"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/24edwards/24edwards-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Cristina Spanò"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/24edwards/24edwards-articleInline.jpg",
+          "format": "Normal",
+          "height": 190,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Cristina Spanò"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/24edwards/24edwards-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Cristina Spanò"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/24edwards/24edwards-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1800,
+          "width": 1800,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Cristina Spanò"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jRLnjX"
+    },
+    {
+      "section": "Opinion",
+      "subsection": "",
+      "title": "Discovering Feminist Students in the Middle East",
+      "abstract": "My American students thought feminism was for angry man-haters. Women in Abu Dhabi were inspired by it to take risks and take charge of their lives.",
+      "url": "http://www.nytimes.com/2017/01/23/opinion/discovering-feminist-students-in-the-middle-east.html",
+      "byline": "By DEBORAH WILLIAMS",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T03:21:20-05:00",
+      "created_date": "2017-01-23T03:21:21-05:00",
+      "published_date": "2017-01-23T03:21:21-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Women and Girls",
+        "Women's Rights",
+        "Colleges and Universities",
+        "International Study and Teaching"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/opinion/23oncampus/23oncampus-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Celia Jacobs/ArtCenter"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/opinion/23oncampus/23oncampus-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Celia Jacobs/ArtCenter"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/opinion/23oncampus/23oncampus-articleInline.jpg",
+          "format": "Normal",
+          "height": 107,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Celia Jacobs/ArtCenter"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/opinion/23oncampus/23oncampus-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Celia Jacobs/ArtCenter"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/opinion/23oncampus/23oncampus-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1151,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Celia Jacobs/ArtCenter"
+        }
+      ],
+      "short_url": "https://nyti.ms/2khJIRx"
+    },
+    {
+      "section": "Opinion",
+      "subsection": "",
+      "title": "What Republicans Have to Learn From the Women’s March",
+      "abstract": "Let’s not make the same mistakes the Democrats made about the Tea Party.",
+      "url": "http://www.nytimes.com/2017/01/23/opinion/what-republicans-have-to-learn-from-the-womens-march.html",
+      "byline": "By EVAN SIEGFRIED",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T12:25:40-05:00",
+      "created_date": "2017-01-23T12:25:41-05:00",
+      "published_date": "2017-01-23T12:25:41-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Women's Rights",
+        "Tea Party Movement"
+      ],
+      "org_facet": [
+        "Republican Party"
+      ],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/23siegfriedSub/23siegfriedSub-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Large crowds joined the Women’s March in Washington, D.C., and around the world.",
+          "copyright": "Mario Tama/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/23siegfriedSub/23siegfriedSub-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Large crowds joined the Women’s March in Washington, D.C., and around the world.",
+          "copyright": "Mario Tama/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/23siegfriedSub/23siegfriedSub-articleInline.jpg",
+          "format": "Normal",
+          "height": 120,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Large crowds joined the Women’s March in Washington, D.C., and around the world.",
+          "copyright": "Mario Tama/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/23siegfriedSub/23siegfriedSub-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Large crowds joined the Women’s March in Washington, D.C., and around the world.",
+          "copyright": "Mario Tama/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/23siegfriedSub/23siegfriedSub-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1288,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Large crowds joined the Women’s March in Washington, D.C., and around the world.",
+          "copyright": "Mario Tama/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kkp4jO"
+    },
+    {
+      "section": "Opinion",
+      "subsection": "",
+      "title": "Birth Place",
+      "abstract": "A day in the one of the world’s busiest maternity wards.",
+      "url": "http://www.nytimes.com/2017/01/23/opinion/birth-place.html",
+      "byline": "By RAMONA S. DIAZ",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T15:56:22-05:00",
+      "created_date": "2017-01-23T15:56:23-05:00",
+      "published_date": "2017-01-23T15:56:23-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Birth Control and Family Planning",
+        "Sex Education",
+        "Women and Girls",
+        "Pregnancy and Childbirth"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Duterte, Rodrigo"
+      ],
+      "geo_facet": [
+        "Philippines"
+      ],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2kl6MyQ"
+    },
+    {
+      "section": "Your Money",
+      "subsection": "",
+      "title": "Time Is Not on Your Side When It Comes to Credit Debt",
+      "abstract": "If you overspent on holiday gifts, credit experts advise that you pay down your card balance as quickly as possible.",
+      "url": "http://www.nytimes.com/2017/01/20/your-money/time-is-not-on-your-side-when-it-comes-to-credit-debt.html",
+      "byline": "By ANN CARRNS",
+      "item_type": "Article",
+      "updated_date": "2017-01-20T10:22:23-05:00",
+      "created_date": "2017-01-20T10:22:23-05:00",
+      "published_date": "2017-01-20T10:22:23-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Personal Finances",
+        "Credit Cards",
+        "Credit and Debt",
+        "Banking and Financial Institutions"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/business/21adviser-web/21adviser-web-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Elise Amendola/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/business/21adviser-web/21adviser-web-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Elise Amendola/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/business/21adviser-web/21adviser-web-articleInline.jpg",
+          "format": "Normal",
+          "height": 136,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Elise Amendola/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/business/21adviser-web/21adviser-web-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Elise Amendola/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/21/business/21adviser-web/21adviser-web-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1471,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Elise Amendola/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jH1IHV"
+    },
+    {
+      "section": "Arts",
+      "subsection": "Television",
+      "title": "Rita Moreno Aims to Hit the Right Accent on ‘One Day at a Time’",
+      "abstract": "The much-awarded actress talks about trying to avoid stereotypes and about emotional moments on the set.",
+      "url": "http://www.nytimes.com/2017/01/22/arts/television/netflix-one-day-at-a-time-rita-moreno-interview.html",
+      "byline": "By MONICA CASTILLO",
+      "item_type": "Article",
+      "updated_date": "2017-01-22T17:04:57-05:00",
+      "created_date": "2017-01-22T17:04:58-05:00",
+      "published_date": "2017-01-22T17:04:58-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Television",
+        "Web-Original Programming",
+        "Cuban-Americans",
+        "Hispanic-Americans",
+        "One Day at a Time (TV Program)"
+      ],
+      "org_facet": [
+        "Netflix Inc"
+      ],
+      "per_facet": [
+        "Moreno, Rita"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/arts/23MORENO/23MORENO-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rita Moreno",
+          "copyright": "Roy Rochlin/FilmMagic, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/arts/23MORENO/23MORENO-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rita Moreno",
+          "copyright": "Roy Rochlin/FilmMagic, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/arts/23MORENO/23MORENO-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rita Moreno",
+          "copyright": "Roy Rochlin/FilmMagic, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/arts/23MORENO/23MORENO-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rita Moreno",
+          "copyright": "Roy Rochlin/FilmMagic, via Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/arts/23MORENO/23MORENO-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1367,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rita Moreno",
+          "copyright": "Roy Rochlin/FilmMagic, via Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kg11CK"
+    },
+    {
+      "section": "Multimedia/Photos",
+      "subsection": "",
+      "title": "Peter Hujar&#8217;s Gay Lower East Side: Out of the Shadows",
+      "abstract": "A traveling retrospective finally recognizes the work of Peter Hujar, whose photos of gay life were overshadowed by those by his contemporary, Robert Mapplethorpe.",
+      "url": "http://lens.blogs.nytimes.com/2017/01/23/peter-hujars-gay-lower-east-side-out-of-the-shadows/",
+      "byline": "By RENA SILVERMAN",
+      "item_type": "Blogpost",
+      "updated_date": "2017-01-23T16:14:11+00:00",
+      "created_date": "2017-01-23T04:00:14-05:00",
+      "published_date": "2017-01-23T04:00:14-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2ki2hFc"
+    },
+    {
+      "section": "Food",
+      "subsection": "",
+      "title": "A Popover With a Deep Secret",
+      "abstract": "A touch of whole-grain flour enriches the flavor of these tall, feather-light pastries.",
+      "url": "http://www.nytimes.com/2017/01/20/dining/buckwheat-popover-video-recipe.html",
+      "byline": "By MELISSA CLARK",
+      "item_type": "Article",
+      "updated_date": "2017-01-20T15:14:15-05:00",
+      "created_date": "2017-01-20T15:13:04-05:00",
+      "published_date": "2017-01-20T15:13:04-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Cooking and Cookbooks",
+        "Grain"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2jHQXW7"
+    },
+    {
+      "section": "The Upshot",
+      "subsection": "",
+      "title": "Peak Millennial? Cities Can’t Assume a Continued Boost From the Young",
+      "abstract": "Over the next few years, demographic research shows, the growth in demand for urban living could stall.",
+      "url": "http://www.nytimes.com/2017/01/23/upshot/peak-millennial-cities-cant-assume-a-continued-boost-from-the-young.html",
+      "byline": "By CONOR DOUGHERTY",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T09:00:15-05:00",
+      "created_date": "2017-01-23T09:00:16-05:00",
+      "published_date": "2017-01-23T09:00:16-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Millennial Generation",
+        "Urban Areas",
+        "Real Estate and Housing (Residential)",
+        "Population",
+        "Renting and Leasing (Real Estate)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/upshot/24up-millennial1/24up-millennial1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A happy hour event in San Francisco in 2014 for some social media stars. Lindsey Louie with her dog Biggie Griffon.",
+          "copyright": "Preston Gannaway for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/upshot/24up-millennial1/24up-millennial1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A happy hour event in San Francisco in 2014 for some social media stars. Lindsey Louie with her dog Biggie Griffon.",
+          "copyright": "Preston Gannaway for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/upshot/24up-millennial1/24up-millennial1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A happy hour event in San Francisco in 2014 for some social media stars. Lindsey Louie with her dog Biggie Griffon.",
+          "copyright": "Preston Gannaway for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/upshot/24up-millennial1/24up-millennial1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A happy hour event in San Francisco in 2014 for some social media stars. Lindsey Louie with her dog Biggie Griffon.",
+          "copyright": "Preston Gannaway for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/upshot/24up-millennial1/24up-millennial1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A happy hour event in San Francisco in 2014 for some social media stars. Lindsey Louie with her dog Biggie Griffon.",
+          "copyright": "Preston Gannaway for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kjnxuj"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Why Obama Struggled at Court, and Trump May Strain to Do Better",
+      "abstract": "Mr. Obama’s record, of winning about half his cases, is an outlier. But since the Reagan administration, each succeeding president has done worse than the last.",
+      "url": "http://www.nytimes.com/2017/01/23/us/politics/obama-supreme-court-win-rate-trump.html",
+      "byline": "By ADAM LIPTAK",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T05:00:24-05:00",
+      "created_date": "2017-01-23T05:00:25-05:00",
+      "published_date": "2017-01-23T05:00:25-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States Politics and Government",
+        "Appointments and Executive Changes"
+      ],
+      "org_facet": [
+        "Supreme Court (US)"
+      ],
+      "per_facet": [
+        "Obama, Barack"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24BAR-1/24BAR-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "On average, presidents win in the Supreme Court about two-thirds of the time. President Barack Obama won just 50.5 percent of his cases.",
+          "copyright": "Al Drago/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24BAR-1/24BAR-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "On average, presidents win in the Supreme Court about two-thirds of the time. President Barack Obama won just 50.5 percent of his cases.",
+          "copyright": "Al Drago/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24BAR-1/24BAR-1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "On average, presidents win in the Supreme Court about two-thirds of the time. President Barack Obama won just 50.5 percent of his cases.",
+          "copyright": "Al Drago/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24BAR-1/24BAR-1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "On average, presidents win in the Supreme Court about two-thirds of the time. President Barack Obama won just 50.5 percent of his cases.",
+          "copyright": "Al Drago/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24BAR-1/24BAR-1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "On average, presidents win in the Supreme Court about two-thirds of the time. President Barack Obama won just 50.5 percent of his cases.",
+          "copyright": "Al Drago/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jPx8vV"
+    },
+    {
+      "section": "World",
+      "subsection": "Middle East",
+      "title": "Angry Recriminations Spoil First Day of Syrian Peace Talks",
+      "abstract": "The talks between rebels and the Syrian government, arranged by Turkey and Russia, were marked by accusations and harsh words on both sides.",
+      "url": "http://www.nytimes.com/2017/01/23/world/middleeast/syria-astana-talks-russia-turkey.html",
+      "byline": "By ANNE BARNARD and HWAIDA SAAD",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T16:02:23-05:00",
+      "created_date": "2017-01-23T13:22:56-05:00",
+      "published_date": "2017-01-23T13:22:56-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States International Relations"
+      ],
+      "org_facet": [
+        "Free Syrian Army",
+        "Islamic State in Iraq and Syria (ISIS)",
+        "Levant Conquest Front"
+      ],
+      "per_facet": [
+        "Assad, Bashar al-"
+      ],
+      "geo_facet": [
+        "Syria",
+        "Russia",
+        "Turkey"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24syria/24syria-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Syrian peace negotiators had heated exchanges during talks in a hotel in Astana, Kazakhstan, on Monday, the first day of meetings to try to end the Syrian civil war.",
+          "copyright": "Sergei Grits/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24syria/24syria-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Syrian peace negotiators had heated exchanges during talks in a hotel in Astana, Kazakhstan, on Monday, the first day of meetings to try to end the Syrian civil war.",
+          "copyright": "Sergei Grits/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24syria/24syria-articleInline.jpg",
+          "format": "Normal",
+          "height": 114,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Syrian peace negotiators had heated exchanges during talks in a hotel in Astana, Kazakhstan, on Monday, the first day of meetings to try to end the Syrian civil war.",
+          "copyright": "Sergei Grits/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24syria/24syria-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Syrian peace negotiators had heated exchanges during talks in a hotel in Astana, Kazakhstan, on Monday, the first day of meetings to try to end the Syrian civil war.",
+          "copyright": "Sergei Grits/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24syria/24syria-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1227,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Syrian peace negotiators had heated exchanges during talks in a hotel in Astana, Kazakhstan, on Monday, the first day of meetings to try to end the Syrian civil war.",
+          "copyright": "Sergei Grits/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kkBMis"
+    },
+    {
+      "section": "World",
+      "subsection": "Middle East",
+      "title": "Trump Presidency Is Already Altering Israeli-Palestinian Politics",
+      "abstract": "The transition, and questions surrounding it, rippled through issues including the location of the American Embassy and whether Palestinians are on the edge of a renewed revolt.",
+      "url": "http://www.nytimes.com/2017/01/22/world/middleeast/israel-benjamin-netanyahu-jerusalem-maale-adumim-donald-trump.html",
+      "byline": "By IAN FISHER",
+      "item_type": "Article",
+      "updated_date": "2017-01-22T21:07:46-05:00",
+      "created_date": "2017-01-22T21:07:47-05:00",
+      "published_date": "2017-01-22T21:07:47-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Palestinians",
+        "Diplomatic Service, Embassies and Consulates",
+        "Israeli Settlements"
+      ],
+      "org_facet": [
+        "Palestinian Authority"
+      ],
+      "per_facet": [
+        "Netanyahu, Benjamin",
+        "Trump, Donald J",
+        "Friedman, David M (1958- )",
+        "Bennett, Naftali",
+        "Abbas, Mahmoud",
+        "Abdullah II, King of Jordan"
+      ],
+      "geo_facet": [
+        "Jerusalem (Israel)",
+        "Israel"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/world/ISRAEL/ISRAEL-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Speculation swirled that the United States Embassy in Tel Aviv might move to Jerusalem.",
+          "copyright": "Amir Cohen/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/world/ISRAEL/ISRAEL-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Speculation swirled that the United States Embassy in Tel Aviv might move to Jerusalem.",
+          "copyright": "Amir Cohen/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/world/ISRAEL/ISRAEL-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Speculation swirled that the United States Embassy in Tel Aviv might move to Jerusalem.",
+          "copyright": "Amir Cohen/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/world/ISRAEL/ISRAEL-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Speculation swirled that the United States Embassy in Tel Aviv might move to Jerusalem.",
+          "copyright": "Amir Cohen/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/world/ISRAEL/ISRAEL-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Speculation swirled that the United States Embassy in Tel Aviv might move to Jerusalem.",
+          "copyright": "Amir Cohen/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jOntpo"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Trump Speaks With Netanyahu, Seeking to Thaw U.S. Relations",
+      "abstract": "The president invited the Israeli prime minister to the White House next month as his administration moved toward relocating the United States Embassy to Jerusalem.",
+      "url": "http://www.nytimes.com/2017/01/22/us/politics/donald-trump-benjamin-netanyahu-us-israel-relations.html",
+      "byline": "By JULIE HIRSCHFELD DAVIS",
+      "item_type": "Article",
+      "updated_date": "2017-01-22T21:33:50-05:00",
+      "created_date": "2017-01-22T21:33:50-05:00",
+      "published_date": "2017-01-22T21:33:50-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States International Relations",
+        "Palestinians",
+        "Diplomatic Service, Embassies and Consulates"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J",
+        "Netanyahu, Benjamin",
+        "Friedman, David M (1958- )"
+      ],
+      "geo_facet": [
+        "Israel"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/23TRUMP-01p/23TRUMP-01p-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Benjamin Netanyahu of Israel, center, in Jerusalem on Sunday. The Trump administration has signaled that it will move the United States embassy to Jerusalem from Tel Aviv.",
+          "copyright": "Ronen Zvulun/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/23TRUMP-01p/23TRUMP-01p-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Benjamin Netanyahu of Israel, center, in Jerusalem on Sunday. The Trump administration has signaled that it will move the United States embassy to Jerusalem from Tel Aviv.",
+          "copyright": "Ronen Zvulun/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/23TRUMP-01p/23TRUMP-01p-articleInline.jpg",
+          "format": "Normal",
+          "height": 125,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Benjamin Netanyahu of Israel, center, in Jerusalem on Sunday. The Trump administration has signaled that it will move the United States embassy to Jerusalem from Tel Aviv.",
+          "copyright": "Ronen Zvulun/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/23TRUMP-01p/23TRUMP-01p-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Benjamin Netanyahu of Israel, center, in Jerusalem on Sunday. The Trump administration has signaled that it will move the United States embassy to Jerusalem from Tel Aviv.",
+          "copyright": "Ronen Zvulun/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/us/23TRUMP-01p/23TRUMP-01p-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1350,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Benjamin Netanyahu of Israel, center, in Jerusalem on Sunday. The Trump administration has signaled that it will move the United States embassy to Jerusalem from Tel Aviv.",
+          "copyright": "Ronen Zvulun/Agence France-Presse — Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jOzriI"
+    },
+    {
+      "section": "Theater",
+      "subsection": "",
+      "title": "Poster Perfect: The Art of James McMullan",
+      "abstract": "Mr. McMullan unearths some of his never-before-seen theater posters to demonstrate how he created each work, from early studies to final versions.",
+      "url": "http://www.nytimes.com/2017/01/23/theater/poster-perfect-the-art-of-james-mcmullan.html",
+      "byline": "By ERIK PIEPENBURG",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T12:54:51-05:00",
+      "created_date": "2017-01-23T12:54:52-05:00",
+      "published_date": "2017-01-23T12:54:52-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Posters",
+        "Art",
+        "Advertising and Marketing",
+        "Theater",
+        "How to Transcend a Happy Marriage (Play)",
+        "The King and I (Play)",
+        "The Royale (Play)"
+      ],
+      "org_facet": [
+        "Lincoln Center Theater"
+      ],
+      "per_facet": [
+        "McMullan, James",
+        "Ruhl, Sarah"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/20/arts/24MCMULLANMAIN2/24MCMULLANMAIN2-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "James McMullan in his Upper West Side studio.",
+          "copyright": "Ángel Franco/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/20/arts/24MCMULLANMAIN2/24MCMULLANMAIN2-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "James McMullan in his Upper West Side studio.",
+          "copyright": "Ángel Franco/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/20/arts/24MCMULLANMAIN2/24MCMULLANMAIN2-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "James McMullan in his Upper West Side studio.",
+          "copyright": "Ángel Franco/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/20/arts/24MCMULLANMAIN2/24MCMULLANMAIN2-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "James McMullan in his Upper West Side studio.",
+          "copyright": "Ángel Franco/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/20/arts/24MCMULLANMAIN2/24MCMULLANMAIN2-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "James McMullan in his Upper West Side studio.",
+          "copyright": "Ángel Franco/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jRaSSB"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "",
+      "title": "San Francisco Asks: Where Have All the Children Gone?",
+      "abstract": "San Francisco has the lowest share of children of the country’s largest cities, a longstanding trend reinforced by a tech industry that skews young and single.",
+      "url": "http://www.nytimes.com/2017/01/21/us/san-francisco-children.html",
+      "byline": "By THOMAS FULLER",
+      "item_type": "Article",
+      "updated_date": "2017-01-21T15:44:30-05:00",
+      "created_date": "2017-01-21T15:44:31-05:00",
+      "published_date": "2017-01-21T15:44:31-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Population",
+        "Children and Childhood",
+        "Education (K-12)",
+        "Real Estate and Housing (Residential)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "San Francisco (Calif)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/22/us/22SFKIDS-01/00SFKIDS-01-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Slin Lee and Daisy Yeung in their apartment in San Francisco. &ldquo;When we imagine having kids, we think of somewhere else,&rdquo; Mr. Lee said.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/22/us/22SFKIDS-01/00SFKIDS-01-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Slin Lee and Daisy Yeung in their apartment in San Francisco. &ldquo;When we imagine having kids, we think of somewhere else,&rdquo; Mr. Lee said.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/22/us/22SFKIDS-01/00SFKIDS-01-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Slin Lee and Daisy Yeung in their apartment in San Francisco. &ldquo;When we imagine having kids, we think of somewhere else,&rdquo; Mr. Lee said.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/22/us/22SFKIDS-01/00SFKIDS-01-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Slin Lee and Daisy Yeung in their apartment in San Francisco. &ldquo;When we imagine having kids, we think of somewhere else,&rdquo; Mr. Lee said.",
+          "copyright": "Jim Wilson/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/22/us/22SFKIDS-01/00SFKIDS-01-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Slin Lee and Daisy Yeung in their apartment in San Francisco. &ldquo;When we imagine having kids, we think of somewhere else,&rdquo; Mr. Lee said.",
+          "copyright": "Jim Wilson/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jKI6mi"
+    },
+    {
+      "section": "Sports",
+      "subsection": "Pro Football",
+      "title": "Tom Brady and Patriots Overwhelm Steelers and Advance to Super Bowl LI",
+      "abstract": "Brady threw for 384 yards and three touchdowns to vanquish visiting Pittsburgh and lead New England to the Super Bowl for the seventh time.",
+      "url": "http://www.nytimes.com/2017/01/22/sports/football/new-england-patriots-super-bowl-pittsburgh-steelers.html",
+      "byline": "By BEN SHPIGEL",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T00:50:28-05:00",
+      "created_date": "2017-01-22T22:38:52-05:00",
+      "published_date": "2017-01-22T22:38:52-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Football",
+        "Super Bowl",
+        "Playoff Games"
+      ],
+      "org_facet": [
+        "New England Patriots",
+        "Pittsburgh Steelers"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/sports/23AFC/23AFC-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Patriots wide receiver Chris Hogan caught two of Tom Brady’s three touchdown passes on Sunday, including a 16-yard score in the first quarter.",
+          "copyright": "Matt Slocum/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/sports/23AFC/23AFC-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Patriots wide receiver Chris Hogan caught two of Tom Brady’s three touchdown passes on Sunday, including a 16-yard score in the first quarter.",
+          "copyright": "Matt Slocum/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/sports/23AFC/23AFC-articleInline.jpg",
+          "format": "Normal",
+          "height": 129,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Patriots wide receiver Chris Hogan caught two of Tom Brady’s three touchdown passes on Sunday, including a 16-yard score in the first quarter.",
+          "copyright": "Matt Slocum/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/sports/23AFC/23AFC-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Patriots wide receiver Chris Hogan caught two of Tom Brady’s three touchdown passes on Sunday, including a 16-yard score in the first quarter.",
+          "copyright": "Matt Slocum/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/sports/23AFC/23AFC-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1386,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Patriots wide receiver Chris Hogan caught two of Tom Brady’s three touchdown passes on Sunday, including a 16-yard score in the first quarter.",
+          "copyright": "Matt Slocum/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kgIMNu"
+    },
+    {
+      "section": "Sports",
+      "subsection": "Pro Football",
+      "title": "Falcons Thrash Packers to Reach Second Super Bowl",
+      "abstract": "Atlanta led by 24-0 at halftime, and quarterback Matt Ryan shredded the Green Bay defense for 392 passing yards and four touchdowns.",
+      "url": "http://www.nytimes.com/2017/01/22/sports/football/atlanta-falcons-super-bowl-green-bay-packers.html",
+      "byline": "By BILL PENNINGTON",
+      "item_type": "Article",
+      "updated_date": "2017-01-22T22:56:18-05:00",
+      "created_date": "2017-01-22T21:14:45-05:00",
+      "published_date": "2017-01-22T21:14:45-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Football",
+        "Playoff Games"
+      ],
+      "org_facet": [
+        "Atlanta Falcons",
+        "Green Bay Packers"
+      ],
+      "per_facet": [
+        "Ryan, Matt (1985- )"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/sports/23nfc/23nfc-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Atlanta quarterback Matt Ryan with wide receiver Aldrick Robinson after a Falcons touchdown in the second quarter at the Georgia Dome on Sunday.",
+          "copyright": "Jason Getz/USA Today Sports, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/sports/23nfc/23nfc-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Atlanta quarterback Matt Ryan with wide receiver Aldrick Robinson after a Falcons touchdown in the second quarter at the Georgia Dome on Sunday.",
+          "copyright": "Jason Getz/USA Today Sports, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/sports/23nfc/23nfc-articleInline.jpg",
+          "format": "Normal",
+          "height": 237,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Atlanta quarterback Matt Ryan with wide receiver Aldrick Robinson after a Falcons touchdown in the second quarter at the Georgia Dome on Sunday.",
+          "copyright": "Jason Getz/USA Today Sports, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/sports/23nfc/23nfc-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Atlanta quarterback Matt Ryan with wide receiver Aldrick Robinson after a Falcons touchdown in the second quarter at the Georgia Dome on Sunday.",
+          "copyright": "Jason Getz/USA Today Sports, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/23/sports/23nfc/23nfc-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 2037,
+          "width": 1630,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Atlanta quarterback Matt Ryan with wide receiver Aldrick Robinson after a Falcons touchdown in the second quarter at the Georgia Dome on Sunday.",
+          "copyright": "Jason Getz/USA Today Sports, via Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jOE9gD"
+    },
+    {
+      "section": "Business Day",
+      "subsection": "",
+      "title": "Samsung Galaxy Note 7 Crisis Signals Problems at Korea Inc.",
+      "abstract": "A countrywide, top-down corporate culture stifles South Korean innovation and may have contributed to the company’s problems, critics say.",
+      "url": "http://www.nytimes.com/2017/01/23/business/samsung-galaxy-note7-fires.html",
+      "byline": "By CHOE SANG-HUN and PAUL MOZUR",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T05:42:06-05:00",
+      "created_date": "2017-01-23T05:42:07-05:00",
+      "published_date": "2017-01-23T05:42:07-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Smartphones",
+        "Computers and the Internet",
+        "Recalls and Bans of Products"
+      ],
+      "org_facet": [
+        "Samsung Group"
+      ],
+      "per_facet": [
+        "Lee, Jay Y"
+      ],
+      "geo_facet": [
+        "Seoul (South Korea)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24SAMSUNG-1/24SAMSUNG-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "D. J. Koh, Samsung’s mobile chief, at the company’s headquarters in Seoul, South Korea, on Monday. He said that the company felt “a painful responsibility for failing to test and confirm that there were problems” with the batteries used in the Galaxy Note 7.",
+          "copyright": "Jeon Heon-Kyun/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24SAMSUNG-1/24SAMSUNG-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "D. J. Koh, Samsung’s mobile chief, at the company’s headquarters in Seoul, South Korea, on Monday. He said that the company felt “a painful responsibility for failing to test and confirm that there were problems” with the batteries used in the Galaxy Note 7.",
+          "copyright": "Jeon Heon-Kyun/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24SAMSUNG-1/24SAMSUNG-1-articleInline.jpg",
+          "format": "Normal",
+          "height": 128,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "D. J. Koh, Samsung’s mobile chief, at the company’s headquarters in Seoul, South Korea, on Monday. He said that the company felt “a painful responsibility for failing to test and confirm that there were problems” with the batteries used in the Galaxy Note 7.",
+          "copyright": "Jeon Heon-Kyun/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24SAMSUNG-1/24SAMSUNG-1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "D. J. Koh, Samsung’s mobile chief, at the company’s headquarters in Seoul, South Korea, on Monday. He said that the company felt “a painful responsibility for failing to test and confirm that there were problems” with the batteries used in the Galaxy Note 7.",
+          "copyright": "Jeon Heon-Kyun/European Pressphoto Agency"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/world/24SAMSUNG-1/24SAMSUNG-1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1382,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "D. J. Koh, Samsung’s mobile chief, at the company’s headquarters in Seoul, South Korea, on Monday. He said that the company felt “a painful responsibility for failing to test and confirm that there were problems” with the batteries used in the Galaxy Note 7.",
+          "copyright": "Jeon Heon-Kyun/European Pressphoto Agency"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jPHhZD"
+    },
+    {
+      "section": "N.Y. / Region",
+      "subsection": "",
+      "title": "New York City to Pay Up to $75 Million Over Dismissed Summonses",
+      "abstract": "The city will settle a class-action lawsuit that accused the police of issuing hundreds of thousands of criminal summonses later found to lack legal justification.",
+      "url": "http://www.nytimes.com/2017/01/23/nyregion/new-york-city-agrees-to-settlement-over-summonses-that-were-dismissed.html",
+      "byline": "By BENJAMIN WEISER",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T11:27:27-05:00",
+      "created_date": "2017-01-23T11:27:27-05:00",
+      "published_date": "2017-01-23T11:27:27-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Suits and Litigation (Civil)"
+      ],
+      "org_facet": [
+        "Police Department (NYC)"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "New York City"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/nyregion/24SETTLE1/24SETTLE1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A New York police officer in July. The city has agreed to pay up to $75 million to settle a lawsuit accusing the Police Department of issuing hundreds of thousands of criminal summonses that were found to be without legal justification.",
+          "copyright": "Christopher Lee for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/nyregion/24SETTLE1/24SETTLE1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A New York police officer in July. The city has agreed to pay up to $75 million to settle a lawsuit accusing the Police Department of issuing hundreds of thousands of criminal summonses that were found to be without legal justification.",
+          "copyright": "Christopher Lee for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/nyregion/24SETTLE1/24SETTLE1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A New York police officer in July. The city has agreed to pay up to $75 million to settle a lawsuit accusing the Police Department of issuing hundreds of thousands of criminal summonses that were found to be without legal justification.",
+          "copyright": "Christopher Lee for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/nyregion/24SETTLE1/24SETTLE1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A New York police officer in July. The city has agreed to pay up to $75 million to settle a lawsuit accusing the Police Department of issuing hundreds of thousands of criminal summonses that were found to be without legal justification.",
+          "copyright": "Christopher Lee for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/nyregion/24SETTLE1/24SETTLE1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A New York police officer in July. The city has agreed to pay up to $75 million to settle a lawsuit accusing the Police Department of issuing hundreds of thousands of criminal summonses that were found to be without legal justification.",
+          "copyright": "Christopher Lee for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2jR09Y5"
+    },
+    {
+      "section": "Public Editor",
+      "subsection": "",
+      "title": "Can Dads Parent While Mom Is Marching? Do You Really Have to Ask?",
+      "abstract": "An article about fathers in Montclair, N.J., who watched their children while their wives attended protests in Washington and New York was ill-conceived.",
+      "url": "http://www.nytimes.com/2017/01/23/public-editor/women-march-dads-liz-spayd-public-editor.html",
+      "byline": "By LIZ SPAYD",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T17:00:31-05:00",
+      "created_date": "2017-01-23T17:00:31-05:00",
+      "published_date": "2017-01-23T17:00:31-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [
+        "New York Times"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/24pubedart/24pubedart-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Geoffrey Hillback with his daughter, Nico, left, and his son, Bennett, at Edgemont Memorial Park in Montclair, N.J., on Saturday.",
+          "copyright": "Bryan Anselm for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/24pubedart/24pubedart-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Geoffrey Hillback with his daughter, Nico, left, and his son, Bennett, at Edgemont Memorial Park in Montclair, N.J., on Saturday.",
+          "copyright": "Bryan Anselm for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/24pubedart/24pubedart-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Geoffrey Hillback with his daughter, Nico, left, and his son, Bennett, at Edgemont Memorial Park in Montclair, N.J., on Saturday.",
+          "copyright": "Bryan Anselm for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/24pubedart/24pubedart-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Geoffrey Hillback with his daughter, Nico, left, and his son, Bennett, at Edgemont Memorial Park in Montclair, N.J., on Saturday.",
+          "copyright": "Bryan Anselm for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/opinion/24pubedart/24pubedart-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Geoffrey Hillback with his daughter, Nico, left, and his son, Bennett, at Edgemont Memorial Park in Montclair, N.J., on Saturday.",
+          "copyright": "Bryan Anselm for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kl3YBM"
+    },
+    {
+      "section": "N.Y. / Region",
+      "subsection": "",
+      "title": "‘To Hell and Back’ as a Cancer Survivor, Storm Victim and Caregiver",
+      "abstract": "DeBraan Varvaro, 61, provides care for her younger sister, who is a paranoid schizophrenic. Their financial and health problems worsened after Hurricane Sandy.",
+      "url": "http://www.nytimes.com/2017/01/23/nyregion/to-hell-and-back-as-a-cancer-survivor-storm-victim-and-caregiver.html",
+      "byline": "By EMILY PALMER",
+      "item_type": "Article",
+      "updated_date": "2017-01-23T11:00:16-05:00",
+      "created_date": "2017-01-23T11:00:17-05:00",
+      "published_date": "2017-01-23T11:00:17-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Philanthropy"
+      ],
+      "org_facet": [
+        "UJA-Federation of New York",
+        "New York Times Neediest Cases Fund"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/nyregion/24neediestvarvaro/24neediestvarvaro-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "DeBraan Varvaro, left, 61, and her younger sister, Carolyn Varvaro, at the top of the staircase that leads to their second-story apartment on Staten Island. The elder Ms. Varvaro provides care for her sister, who has schizophrenia.",
+          "copyright": "Danny Ghitis for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/nyregion/24neediestvarvaro/24neediestvarvaro-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "DeBraan Varvaro, left, 61, and her younger sister, Carolyn Varvaro, at the top of the staircase that leads to their second-story apartment on Staten Island. The elder Ms. Varvaro provides care for her sister, who has schizophrenia.",
+          "copyright": "Danny Ghitis for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/nyregion/24neediestvarvaro/24neediestvarvaro-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "DeBraan Varvaro, left, 61, and her younger sister, Carolyn Varvaro, at the top of the staircase that leads to their second-story apartment on Staten Island. The elder Ms. Varvaro provides care for her sister, who has schizophrenia.",
+          "copyright": "Danny Ghitis for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/nyregion/24neediestvarvaro/24neediestvarvaro-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "DeBraan Varvaro, left, 61, and her younger sister, Carolyn Varvaro, at the top of the staircase that leads to their second-story apartment on Staten Island. The elder Ms. Varvaro provides care for her sister, who has schizophrenia.",
+          "copyright": "Danny Ghitis for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2017/01/24/nyregion/24neediestvarvaro/24neediestvarvaro-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "DeBraan Varvaro, left, 61, and her younger sister, Carolyn Varvaro, at the top of the staircase that leads to their second-story apartment on Staten Island. The elder Ms. Varvaro provides care for her sister, who has schizophrenia.",
+          "copyright": "Danny Ghitis for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2kjUwyz"
+    }
+  ]
+}
