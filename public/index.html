@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/styles/modules.css">
     <title>grab'n go</title>
 
-    <script type="text/x-handlebars-template">
+    <script id="#nyta-template" type="text/x-handlebars-template">
       <article class="clearfix">
         <section><a href="{{url}}">
           <h1>{{title}}</h1>
@@ -48,6 +48,7 @@
       <section id="nyta" class="tab-content">
 
       </section>
+
       <section id="settings" class="tab-content">
         <form class="" action="index.html" method="post">
           <label for="username">Username: </label>
@@ -79,5 +80,21 @@
       </section>
     </main>
     <footer> Powered by NY Times and khalidTIMES</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/vendor/scripts/handlebars.js"></script>
+    <script src="/vendor/scripts/marked.js"></script>
+    <script src="/vendor/scripts/page.js"></script>
+
+    <script src="/scripts/model/nyta.js"></script>
+
+    <script src="/scripts/view/nytaView.js"></script>
+    <script src="/scripts/view/settingsView.js"></script>
+    <script src="/scripts/view/aboutView.js"></script>
+
+    <script src="/scripts/controller/nytaController.js"></script>
+    <script src="/scripts/controller/settingsController.js"></script>
+    <script src="/scripts/controller/aboutController.js"></script>
+
+    <script src="/scripts/controller/routes.js"></script>
   </body>
 </html>

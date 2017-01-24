@@ -7,7 +7,7 @@
   nytaObject.all = [];
 
   nytaObject.getNews = function(callback) {
-    $.get('/api.nytimes/svc/topstories/v1/{section}.{response-format}')
+    $.get('/nytimes/svc/topstories/v2/home.json')
     .done(function(data) {
       nytaObject.all = data;
     })
@@ -15,5 +15,4 @@
   };
 
   module.nytaObject = nytaObject;
-
 })(window);
