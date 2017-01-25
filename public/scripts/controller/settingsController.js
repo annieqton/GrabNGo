@@ -1,5 +1,6 @@
 'use strict';
 (function(module) {
+  var settingsController = {};
 
   var setttings = false; //default state
   var currentUser = null;
@@ -16,12 +17,12 @@
   }
 
 //setting user and preferences
-  var preferences = document.getElementById('preferences');
-  var username = document.getElementById('usename').value;
+  var preferences = $('preferences').val();
+  var username = $('usename').val();
 
   document.getElementById('username').addEventListener('submit', function(e) {
     e.preventDefault();
-    new User(username, preferences.checked)
+    new User(username, preferences.checked);
   });
 
   function User(username, world, us, politics, business, technology, science, health, sports, arts, style, food, travel) {
@@ -40,8 +41,6 @@
     this.pref12 = travel;
     allUsers.push(this);
   }
-
-
 
   module.settingsController = settingsController;
 })(window);

@@ -5,12 +5,12 @@ const express = require('express')
 const port = process.env.PORT || 3000
 const app = express();
 
-var proxyNYTimes = function(request, response) {
+var proxyNYTimes = function(request, response, next) {
   console.log('Routing NY times request for', request.params[0]);
   (requestProxy({
-    url: 'https://api.nytimes.com' + request.params[0],
-    headers: { Authorization: 'token 813e4209609647368542b95b4e055575'}
-  }))(request, response);
+    url: 'https://api.nytimes.com/' + request.params[0] + '?api-key=813e4209609647368542b95b4e055575',
+    // headers: { Authorization: 'token 813e4209609647368542b95b4e055575'}
+  }))(request, response, next);
 };
 
 app.get('/nytimes/*', proxyNYTimes);
