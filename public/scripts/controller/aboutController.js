@@ -9,4 +9,4 @@
   };
 
   module.aboutController = aboutController;
-})
+})(window);

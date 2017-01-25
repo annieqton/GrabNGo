@@ -1,9 +1,9 @@
 'use strict';
 
-const requestProxy = require('express-request-proxy'),
-const express = require('express'),
-const  port = process.env.PORT || 3000,
-const  app = express();
+const requestProxy = require('express-request-proxy')
+const express = require('express')
+const port = process.env.PORT || 3000
+const app = express();
 
 var proxyNYTimes = function(request, response) {
   console.log('Routing NY times request for', request.params[0]);
