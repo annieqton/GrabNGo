@@ -9,8 +9,8 @@ var proxyNYTimes = function(request, response, next) {
   console.log('Routing NY times request for', request.params[0]);
 
   (requestProxy({
-    url: 'https://api.nytimes.com/svc/topstories/v2/home.json',
-    json: true,
+    url: 'https://api.nytimes.com/' + request.params[0], //request.params[0] is passing in url in nyta.js
+    dataType: 'json',
     query: {
       'api-key': '813e4209609647368542b95b4e055575'
     }
