@@ -1,10 +1,4 @@
-{
-  "status": "OK",
-  "copyright": "Copyright (c) 2017 The New York Times Company. All Rights Reserved.",
-  "section": "home",
-  "last_updated": "2017-01-23T17:17:35-05:00",
-  "num_results": 33,
-  "results": [
+[
     {
       "section": "Briefing",
       "subsection": "",
@@ -2331,4 +2325,3 @@
       "short_url": "https://nyti.ms/2kjUwyz"
     }
   ]
-}
