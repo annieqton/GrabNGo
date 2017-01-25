@@ -3,10 +3,13 @@
 (function(module) {
   var settingsController = {};
 
+  settingsController.index = function() {
+    $('#userSettings').show().siblings().hide();
+  }
+
   var setttings = false; //default state
   var currentUser = null;
   var allUsers = []; // username, preference array
-  // var sessionInfo = [];
 
   // check user existence
   //call this on click event on Settings at page load (nytaView.js)
@@ -17,31 +20,43 @@
     }
   }
 
-//setting user and preferences
-  var preferences = $('preferences').val();
-  var username = $('usename').val();
-
-  document.getElementById('username').addEventListener('submit', function(e) {
-    e.preventDefault();
-    new User(username, preferences.checked);
-  });
-
   function User(username, world, us, politics, business, technology, science, health, sports, arts, style, food, travel) {
-    this.username = username;
-    this.pref1 = world;
-    this.pref2 = us;
-    this.pref3 = politics;
-    this.pref4 = business;
-    this.pref5 = technology;
-    this.pref6 = science;
-    this.pref7 = health;
-    this.pref8 = sports;
-    this.pref9 = arts;
-    this.pref10 = style;
-    this.pref11 = food;
-    this.pref12 = travel;
+    this.username = username || false;
+    this.world = world || false;
+    this.us = us || false;
+    this.politics = politics || false;
+    this.business = business || false;
+    this.technology = technology || false;
+    this.science = science || false;
+    this.health = health || false;
+    this.sports = sports || false;
+    this.arts = arts || false;
+    this.style = style || false;
+    this.food = food || false;
+    this.travel = travel || false;
     allUsers.push(this);
   }
+
+  $('.settingsSubmit').on('click', function(e) {
+    e.preventDefault();
+
+    new User($('#username').val(),
+            $('#world').is(':checked'),
+            $('#us').is(':checked'),
+            $('#politics').is(':checked'),
+            $('#technology').is(':checked'),
+            $('#science').is(':checked'),
+            $('#health').is(':checked'),
+            $('#sports').is(':checked'),
+            $('#arts').is(':checked'),
+            $('#style').is(':checked'),
+            $('#food').is(':checked'),
+            $('#travel').is(':checked'));
+
+    localStorage.setItem('sessionInfo', JSON.stringify( allUsers));
+  });
+
+  // console.log(allUsers);
 
   module.settingsController = settingsController;
 })(window);
