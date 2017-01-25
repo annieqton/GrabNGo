@@ -9,7 +9,7 @@
   nytaObject.getNews = function(callback) {
     $.get('/nytimes/svc/topstories/v2/home.json')
     .done(function(data) {
-      nytaObject.all = data;
+      nytaObject.all = data.results;
     })
     .done(callback);
   };

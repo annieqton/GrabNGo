@@ -8,7 +8,10 @@ const app = express();
 var proxyNYTimes = function(request, response, next) {
   console.log('Routing NY times request for', request.params[0]);
   (requestProxy({
-    url: 'https://api.nytimes.com/' + request.params[0] + '?api-key=813e4209609647368542b95b4e055575',
+    url: 'https://api.nytimes.com/' + request.params[0],
+    query: {
+      'api-key': '813e4209609647368542b95b4e055575'
+    }
     // headers: { Authorization: 'token 813e4209609647368542b95b4e055575'}
   }))(request, response, next);
 };
