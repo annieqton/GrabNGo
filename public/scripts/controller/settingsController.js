@@ -1,7 +1,11 @@
-
 'use strict';
 (function(module) {
-  var settingsController = {};
+  const settingsController = {};
+  settingsController.index = () => {
+    $('#settings').show().siblings().hide();
+
+  };
+
 
   var setttings = false; //default state
   var currentUser = null;
@@ -19,7 +23,7 @@
 
 //setting user and preferences
   var preferences = $('preferences').val();
-  var username = $('usename').val();
+  var username = $('username').val();
 
   document.getElementById('username').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -42,6 +46,8 @@
     this.pref12 = travel;
     allUsers.push(this);
   }
-
+ var save = function() {
+   return localStorage.setItem(JSON.stringify('sessionInfo', 'allUsers'));
+ }
   module.settingsController = settingsController;
 })(window);
