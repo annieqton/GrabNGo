@@ -12,10 +12,9 @@
     $.ajax({
       url: '/nytimes/svc/topstories/v2/home.json',
       method: 'GET'
-      // dataType: 'jsonp'
     })
     .done(function(data) {
-      console.log(data);
+      console.log(data.results);
       nytaObject.all = data.results;  //because data comes back as an object, not an array. Is this result or results???
     })
     .done(callback);
