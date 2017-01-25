@@ -6,7 +6,7 @@
   nytaController.index = function() {
     nytaObject.getNews(nytaView.index);
     $('main > section').hide();
-    $('nyta').show();
+    $('#nyta').show();
   };
 
   module.nytaController = nytaController;
