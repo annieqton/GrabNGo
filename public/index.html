@@ -13,13 +13,12 @@
     <script id="nyta-template" type="text/x-handlebars-template">
       <article class="clearfix">
         <section><a href="{{url}}">
-          <h1>{{title}}</h1>
+          <h2>{{title}}</h2></a>
           <div class="byline">
-            By <address>{{byline}}</address>
+            <address>{{byline}}</address>
             <p>{{published_date}}</p>
           </div>
           <div class="abstract">{{abstract}}</div>
-          </a>
         </section>
       </article>
     </script>
@@ -28,11 +27,21 @@
 
   <body>
     <header class="site-header clearfix">
+
       <section class="heading-group-h1">
         <h1>grab 'n go</h1>
-        <!-- append date -->
-        <div id="date">monday june 2017</div>
+        <div id="name">Welcome {{username}}</div>
+        <!-- <script>var bob = Handlebars.compile($('#name').html())</script> -->
+
+        <div id='dateDisplay'></div>
+        <script>
+        var d = new Date();
+        d.setDate(15);
+        document.getElementById("dateDisplay").innerHTML = d;
+        </script>
+
       </section>
+
       <nav class="main-nav">
         <div class="icon-menu"></div>
         <ul>
@@ -67,12 +76,35 @@
           <input type="checkbox" id="food" value="food">Food</input>
           <input type="checkbox" id="travel" value="travel">Travel</input>
 
-          <input class="settingsSubmit" type="submit" value="submit">Save</input>
+          <input class="settingsSubmit" type="submit" value="submit"></input>
 
         </form>
       </section>
 
-      <section id="about" class="tab-content"></section>
+      <section id="about" class="tab-content">
+        <div class="profile">
+          <div id="anna">
+          <h3>Anna</h3>
+          <img src="" />
+          <p>This is Anna</p>
+
+          <div id="khalid">
+          <h3>Khalid-ma</h3>
+          <img src="" />
+          <p>This is Khalid</p>
+
+          <div id="adrian">
+          <h3>Adrian</h3>
+          <img src="" />
+          <p>This is Adrian</p>
+
+          <div id="annie">
+          <h3>Annie</h3>
+          <img src="" />
+          <p>This is Annie</p>
+          </div>
+        </div>
+      </section>
 
     </main>
     <footer> Powered by NY Times</footer>
