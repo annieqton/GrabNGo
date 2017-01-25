@@ -1,6 +1,8 @@
 
 'use strict';
 
-page('/', nytaView.index);
-page();
+page('/', nytaController.index);
+page('/settings', settingsController.index);
+page('/about', aboutController.index);
 
+page();
