@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/vendor/styles/normalize.css">
-    <link rel="stylesheet" href="/styles/icons.css">
     <link rel="stylesheet" href="/styles/base.css">
     <link rel="stylesheet" href="/styles/layout.css">
     <link rel="stylesheet" href="/styles/modules.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Faster+One|Jacques+Francois+Shadow|Monofett|Seaweed+Script|Special+Elite|Stardos+Stencil" rel="stylesheet">
     <title>grab'n go</title>
 
     <script id="nyta-template" type="text/x-handlebars-template">
       <article class="clearfix">
-        <section><a href="{{url}}">
-          <h2>{{title}}</h2></a>
+        <section><a href="{{url}}" target="_blank">
+          <h3>{{title}}</h3></a>
           <div class="byline">
-            <address>{{byline}}</address>
-            <p>{{published_date}}</p>
+            <h6>{{byline}}</h6>
+            <!-- <p>{{published_date}}</p> -->
           </div>
           <div class="abstract">{{abstract}}</div>
         </section>
@@ -27,12 +27,25 @@
   </head>
 
   <body>
+
     <header class="site-header clearfix">
 
-      <section class="heading-group-h1">
-        <h1>grab 'n go</h1>
-        <div id="name">Welcome {{username}}</div>
+      <nav class="main-nav">
+        <div class="icon-menu"></div>
+        <ul>
+          <li class="tab" data-content="articles"><a href="/" class="icon-home3"> HOME</a></li>
+          <li class="tab" data-content="settings"><a href="/settings" class="icon-settings"> SETTINGS</a></li>
+          <li class="tab" data-content="about"><a href="/about" class="icon-info"> ABOUT</a></li>
+        </ul>
+      </nav>
 
+      <section class="heading-group-h1">
+
+        <h1 id="logo">grab 'n go</h1>
+        <div id="tagline">news at your fingertip</div>
+        <div id="welcome">Welcome!</div>
+
+        <!-- TODO: STILL NEED TO FIX DISPLAY DATE. CONSOLE LOG SHOWS CORRECT SYSTEM DATE/TIME BUT WHEN DISPLAY IT SHOWS OLD DATE -->
         <div id='dateDisplay'></div>
         <script>
         var d = new Date();
@@ -40,17 +53,10 @@
         document.getElementById("dateDisplay").innerHTML = d;
         </script>
 
+        <!-- TODO: STRETCH GOAL: BRING IN WEATHER API -->
+
       </section>
 
-      <nav class="main-nav">
-        <div class="icon-menu"></div>
-        <ul>
-          <li class="tab" data-content="articles"><a href="/" class="icon-home"> HOME</a></li>
-          <!-- make sure class for setting is correct per icon moon -->
-          <li class="tab" data-content="settings"><a href="/settings" class="icon-address-book"> SETTINGS</a></li>
-          <li class="tab" data-content="about"><a href="/about" class="icon-address-book"> ABOUT</a></li>
-         </ul>
-      </nav>
     </header>
 
     <main>
@@ -59,55 +65,81 @@
       </section>
 
       <section id="userSettings" class="tab-content">
-        <h4>News Preferences (please select categories below)</h4>
+
+        <h5>Username: <input type="text" id="username"></input></h5>
+
+        <p id="category">News Preferences (please select categories below):</p>
+
         <form class="preferences">
+          <li><input type="checkbox" id="world" value="World"></input> World</li>
 
-          <input type="text" id="username">Username: </input>
+          <!-- NEED TO FIX U.S. IN THE VALUE -->
+          <li><input type="checkbox" id="us" value="U.S."></input>  US</li>
 
-          <input type="checkbox" id="world" value="World">World</input>
-          <input type="checkbox" id="us" value="U.S.">US</input>
-          <input type="checkbox" id="politics" value="Politics">Politics</input>
-          <input type="checkbox" id="technology" value="Technology">Technology</input>
-          <input type="checkbox" id="science" value="Science">Science</input>
-          <input type="checkbox" id="health" value="Health">Health</input>
-          <input type="checkbox" id="sports" value="Sports">Sports</input>
-          <input type="checkbox" id="arts" value="Arts">Arts</input>
-          <input type="checkbox" id="style" value="Style">Style</input>
-          <input type="checkbox" id="food" value="Food">Food</input>
-          <input type="checkbox" id="travel" value="Travel">Travel</input>
 
-          <input class="settingsSubmit" type="submit" value="submit"></input>
-
+          <li><input type="checkbox" id="politics" value="Politics"></input>  Politics</li>
+          <li><input type="checkbox" id="technology" value="Technology"></input>  Technology</li>
+          <li><input type="checkbox" id="science" value="Science"></input>  Science</li>
+          <li><input type="checkbox" id="health" value="Health"></input>  Health</li>
+          <li><input type="checkbox" id="sports" value="Sports"></input>  Sports</li>
+          <li><input type="checkbox" id="arts" value="Arts"></input>  Arts</li>
+          <li><input type="checkbox" id="style" value="Style"></input>  Style</li>
+          <li><input type="checkbox" id="food" value="Food"></input>  Food</li>
+          <li><input type="checkbox" id="travel" value="Travel"></input>  Travel</li>
+          <p><input class="settingsSubmit" type="submit" value="submit"></input></p>
         </form>
+
       </section>
 
       <section id="about" class="tab-content">
+
         <div class="profile">
+
           <div id="anna">
-          <h3>Anna</h3>
-          <img src="" />
-          <p>This is Anna</p>
-
-          <div id="khalid">
-          <h3>Khalid-ma</h3>
-          <img src="" />
-          <p>This is Khalid</p>
-
-          <div id="adrian">
-          <h3>Adrian</h3>
-          <img src="" />
-          <p>This is Adrian</p>
+            <img src="/img/anna.jpg"/>
+            <h4>Fun facts about Anna:</h4>
+            <ol>
+              <li>fun fact 1</li>
+              <li>fun fact 2</li>
+              <li>fun fact 3</li>
+            </ol>
+          </div>
 
           <div id="annie">
-          <h3>Annie</h3>
-          <img src="" />
-          <p>This is Annie</p>
+            <img src="/img/annie.jpg" />
+            <h4>Fun facts about Annie:</h4>
+            <ol>
+              <li>fun fact 1</li>
+              <li>fun fact 2</li>
+              <li>fun fact 3</li>
+            </ol>
           </div>
+
+          <div id="adrian">
+            <img src="/img/adrian.jpg" />
+            <h4>Fun facts about Adrian:</h4>
+            <ol>
+              <li>fun fact 1</li>
+              <li>fun fact 2</li>
+              <li>fun fact 3</li>
+            </ol>
+          </div>
+
+          <div id="khalid">
+            <img src="/img/khalid.jpg" />
+            <h4>Fun facts about Khalid:</h4>
+            <ol>
+              <li>fun fact 1</li>
+              <li>fun fact 2</li>
+              <li>fun fact 3</li>
+            </ol>
+          </div>
+
         </div>
       </section>
 
     </main>
-    <footer> Powered by NY Times</footer>
+    <footer> Powered by New York Times - 2017</footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="/vendor/scripts/handlebars.js"></script>

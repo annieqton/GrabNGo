@@ -6,3 +6,5 @@ page('/settings', settingsController.index);
 page('/about', aboutController.index);
 
 page();
+
+// TODO: ADD CODES FOR MIDDLEWARE
