@@ -7,3 +7,5 @@ page('/about', aboutController.index);
 page('/:sections', setSections); //add controller to display filtered articles
 
 page();
+
+// TODO: ADD CODES FOR MIDDLEWARE

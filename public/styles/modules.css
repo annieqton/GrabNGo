@@ -1,0 +1,143 @@
+.heading-group-h1 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.icon-menu {
+  font-size: 2em;
+  float: left;
+  margin-left: 5%;
+}
+
+.main-nav {
+  padding: 0.1em;
+}
+
+.main-nav ul {
+  display: none;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+
+.main-nav:hover ul {
+  display: inline-flex;
+}
+
+.main-nav li {
+  margin-right: 2em;
+  font-size: 1em;
+  padding: .5em .2em;
+  border-bottom: 1px solid #ccc;
+}
+
+#logo{
+  font-family: 'Faster One', cursive;
+  color: #A93226;
+  text-align: center;
+  font-size: 250%;
+  margin-bottom: 1%;
+}
+
+#tagline {
+  font-family: 'Special Elite', cursive;
+  font-size: 60%;
+  margin-bottom: 5%;
+  margin-left: 60%;
+}
+
+#welcome {
+  font-size: 80%;
+  color: #5F6061;
+}
+
+#dateDisplay {
+  float: right;
+  font-size: 60%;
+  color: #5F6061;
+}
+
+li {
+  list-style: none;
+}
+
+ol li {
+  list-style: circle;
+}
+#category {
+  font-style: italic;
+  font-size: 80%;
+}
+
+.settingsSubmit {
+  background-color: #D5D8DC;
+}
+
+#nyta {
+
+}
+
+.profiles {
+  height: 500px;
+  background-color: white;
+}
+
+img {
+  width: 200px;
+}
+
+#anna {
+    width: 250px;
+}
+
+#annie {
+    width: 250px;
+}
+
+#adrian {
+    width: 250px;
+}
+
+#khalid {
+    width: 250px;
+}
+
+footer {
+  font-size: 0.3em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5%;
+}
+@media only screen and (min-width: 100%) {
+  .icon-menu {
+    display: none;
+  }
+
+  .main-nav {
+    padding: .1em .1em .1em 1em;
+  }
+
+  .main-nav ul {
+    display: block;
+  }
+
+  .main-nav ul li {
+    display: inline;
+    border-bottom: none;
+  }
+
+  .main-nav ul li:hover a {
+    /*color: #29506D;*/
+  }
+
+  img {
+    width: 50%;
+    display: inline-block;
+  }
+}
+/*font-family: 'Special Elite', cursive;*/
+/*font-family: 'Stardos Stencil', cursive;*/
+/*font-family: 'Seaweed Script', cursive;*/
+/*font-family: 'Monofett', cursive;*/
+/*font-family: 'Faster One', cursive;*/
+/*font-family: 'Jacques Francois Shadow', cursive;*/
