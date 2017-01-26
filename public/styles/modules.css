@@ -1,0 +1,20 @@
+.heading-group-h1 h1{
+  /*font-family: 'Special Elite', cursive;*/
+  /*font-family: 'Stardos Stencil', cursive;*/
+  /*font-family: 'Seaweed Script', cursive;*/
+  /*font-family: 'Monofett', cursive;*/
+  font-family: 'Faster One', cursive;
+  /*font-family: 'Jacques Francois Shadow', cursive;*/
+  color: #A93226;
+
+text-align: center;
+font-size: 450%;
+}
+
+#name {
+  float: left;
+}
+
+#dateDisplay {
+  float: right;
+}
