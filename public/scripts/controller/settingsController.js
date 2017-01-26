@@ -5,18 +5,18 @@
 
   settingsController.index = function() {
     $('#userSettings').show().siblings().hide();
-  }
+  };
 
 // TODO: CAN WE PASS A STRING TO A VARIABLE AND THEN ASSIGN THAT VARIABLE AS A PARAMETER IN A CONSTRUCTOR FUNCTION BELOW?
   // var x = 'U.S.';
   // var US = x;
   // console.log(US);
 
-  function User(username, World, US, Politics, Business, Technology, Science, Health, Sports, Arts, Style, Food, Travel) {
+  function User(username, World, us, Politics, Business, Technology, Science, Health, Sports, Arts, Style, Food, Travel) {
     this.username = username || false;
-    this.World = World || false;
+    this.World = 'World' || false;
     // TODO: WE NEED TO FIGURE THIS U.S. SECTION OUT
-    this.US = US || false;
+    this.us = us || false;
     this.Politics = Politics || false;
     this.Business = Business || false;
     this.Technology = Technology || false;
@@ -37,6 +37,7 @@
             $('#world').is(':checked'),
             $('#us').is(':checked'),
             $('#politics').is(':checked'),
+            $('#business').is(':checked'),
             $('#technology').is(':checked'),
             $('#science').is(':checked'),
             $('#health').is(':checked'),
