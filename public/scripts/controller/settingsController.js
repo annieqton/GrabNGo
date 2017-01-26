@@ -13,11 +13,11 @@
 
   // check user existence
   //call this on click event on Settings at page load (nytaView.js)
-  
 
-  function User(username, world, us, politics, business, technology, science, health, sports, arts, style, food, travel) {
+
+  function User(username, World, us, politics, business, technology, science, health, sports, Arts, style, food, travel) {
     this.username = username || false;
-    this.world = world || false;
+    this.World = World || false;
     this.us = us || false;
     this.politics = politics || false;
     this.business = business || false;
@@ -25,7 +25,7 @@
     this.science = science || false;
     this.health = health || false;
     this.sports = sports || false;
-    this.arts = arts || false;
+    this.Arts = Arts || false;
     this.style = style || false;
     this.food = food || false;
     this.travel = travel || false;
