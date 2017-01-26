@@ -15,20 +15,20 @@
   //call this on click event on Settings at page load (nytaView.js)
 
 
-  function User(username, World, us, politics, business, technology, science, health, sports, Arts, style, food, travel) {
+  function User(username, World, us, Politics, Business, Technology, Science, Health, Sports, Arts, Style, Food, Travel) {
     this.username = username || false;
     this.World = World || false;
     this.us = us || false;
-    this.politics = politics || false;
-    this.business = business || false;
-    this.technology = technology || false;
-    this.science = science || false;
-    this.health = health || false;
-    this.sports = sports || false;
+    this.Politics = Politics || false;
+    this.Business = Business || false;
+    this.Technology = Technology || false;
+    this.Science = Science || false;
+    this.Health = Health || false;
+    this.Sports = Sports || false;
     this.Arts = Arts || false;
-    this.style = style || false;
-    this.food = food || false;
-    this.travel = travel || false;
+    this.Style = Style || false;
+    this.Food = Food || false;
+    this.Travel = Travel || false;
     allUsers.push(this);
   }
 
