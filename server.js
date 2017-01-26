@@ -22,9 +22,9 @@ app.get('/nytimes/*', proxyNYTimes);
 
 app.use(express.static('./public'));
 
-app.get('/', function(request, response) {
+app.get('*', function(request, response) {
   console.log('New request:', request.url);
-  response.sendFile('index.html', { root: '.' });
+  response.sendFile('index.html', { root: './public' });
 });
 
 app.listen(port, function() {

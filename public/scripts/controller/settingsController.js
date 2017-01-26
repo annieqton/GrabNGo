@@ -30,25 +30,49 @@
   }
 // TODO: WE HAVE A ONE OFF ERROR HERE IN THE LATE SECTION, FOR EXAMPLE, IF ARTS IS CLICKED, FOOD WILL DISPLAY.
 
-  $('.settingsSubmit').on('click', function(e) {
-    e.preventDefault();
+$('.settingsSubmit').on('click', function(e) {
+  e.preventDefault();
 
-    var currentUser = new User($('#username').val(),
-            $('#world').is(':checked'),
-            $('#us').is(':checked'),
-            $('#politics').is(':checked'),
-            $('#technology').is(':checked'),
-            $('#science').is(':checked'),
-            $('#health').is(':checked'),
-            $('#sports').is(':checked'),
-            $('#arts').is(':checked'),
-            $('#style').is(':checked'),
-            $('#food').is(':checked'),
-            $('#travel').is(':checked'));
 
-    localStorage.setItem('sessionInfo', JSON.stringify(currentUser));
-    window.location.href = '/';
+  var currentUser = new User($('#username').val(),
+  $('#world').is(':checked'),
+  $('#us').is(':checked'),
+  $('#politics').is(':checked'),
+  $('#technology').is(':checked'),
+  $('#science').is(':checked'),
+  $('#health').is(':checked'),
+  $('#sports').is(':checked'),
+  $('#arts').is(':checked'),
+  $('#style').is(':checked'),
+  $('#food').is(':checked'),
+  $('#travel').is(':checked'));
+
+  console.log(currentUser);
+  settingsController.createUrl(currentUser);
+
+  // let url = '/' + currentUser.join('_');
+  // settingsController.setSections();
+
+  localStorage.setItem('sessionInfo', JSON.stringify(currentUser));
+  // window.location.href = '/';
+});
+
+settingsController.createUrl = function(User) {
+  var settingsArray = Object.keys(User).filter(function(prop) {
+    if (User[prop] === true) {
+      return prop;
+    }
   });
+  console.log(settingsArray);
+};
 
-  module.settingsController = settingsController;
+// settingsController.setSections = function(ctx) {
+//   if (ctx.sections.length) {
+//     ctx.params.sections = currentUser.join('_');
+//
+//   } else {
+//
+//   }
+// };
+module.settingsController = settingsController;
 })(window);
