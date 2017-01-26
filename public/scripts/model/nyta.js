@@ -6,7 +6,6 @@
 
   nytaObject.all = [];
 
-
   nytaObject.getNews = function(callback) {
 
     $.ajax({
