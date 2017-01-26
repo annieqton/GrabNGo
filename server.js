@@ -8,6 +8,7 @@ const app = express();
 var proxyNYTimes = function(request, response, next) {
   console.log('Routing NY times request for', request.params[0]);
 
+// TODO: CONCEAL API KEY THROUGH SERVER-PROXY
   (requestProxy({
     url: 'https://api.nytimes.com/' + request.params[0], //request.params[0] is passing in url in nyta.js
     dataType: 'json',
@@ -30,12 +31,5 @@ app.listen(port, function() {
   console.log('Server started on port ' + port + '!');
 });
 
-// see this as a example for err in api call
-// $.ajax({
-//   url: url,
-//   method: 'GET',
-// }).done(function(result) {
-//   console.log(result);
-// }).fail(function(err) {
-//   throw err;
-// });
+
+// TODO: DEPLOY TO HEROKU

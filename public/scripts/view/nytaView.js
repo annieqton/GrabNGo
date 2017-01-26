@@ -6,47 +6,44 @@
   var ui = function() {
     $('#nyta').show().siblings().hide();
   };
-nytaView.index = function() {
-  // function checkStorage() {
+
+  nytaView.index = function() {
     if(localStorage.sessionInfo){
       var retrieveStorage = localStorage.getItem('sessionInfo');
-      var allUsers = JSON.parse(retrieveStorage);
+      var currentUser = JSON.parse(retrieveStorage);
+      var username = currentUser['username'];
+      $('#welcome').html('Welcome ' + username + '!');
+      $('#nyta').html('');
 
       var section = [];
-      console.log(section)
-      for(var prop in allUsers[0]) {
-        if (allUsers[0][prop] === true) {
+      for(var prop in currentUser) {
+        if (prop != 'username' && currentUser[prop] === true) {
+          // console.log("Prop true: " + prop)
           section.push(prop)
         }
       }
+
+
       for(var i = 0; i < section.length; i++){
-        // console.log(section[i]);
+        $('#nyta').append('<H1>'+section[i]+'</H1>');
         for(var j = 0; j < nytaObject.all.length; j++) {
-          console.log('hey');
-          // console.log(nytaObject.all);
           if(nytaObject.all[j].section === section[i]) {
             var render  = Handlebars.compile($('#nyta-template').html());
-            $('#nyta').append(nytaObject.all[j].map(render));
-            console.log('working');
-            // console.log(nytaObject.all.length);
+            $('#nyta').append(render(nytaObject.all[j]));
           }
         }
+        $('#nyta').append('<HR />');
+      }
+    } else {
+
+      ui();
+
+      render = Handlebars.compile($('#nyta-template').html());
+
+      $('#nyta').append(nytaObject.all.map(render));
+      // console.log(nytaObject.all.length);
     }
-  } else {
-
-
-
-  // checkStorage();
-  ui();
-
-  var render  = Handlebars.compile($('#nyta-template').html());
-
-
-
-    $('#nyta').append(nytaObject.all.map(render));
-    console.log(nytaObject.all.length);
-}
-};
+  };
 
   module.nytaView = nytaView;
 })(window);
