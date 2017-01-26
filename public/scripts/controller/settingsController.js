@@ -13,12 +13,7 @@
 
   // check user existence
   //call this on click event on Settings at page load (nytaView.js)
-  function checkStorage() {
-    if(localStorage.allUsers){
-      var retrieveStorage = localStorage.getItem('allUsers');
-      allUsers = JSON.parse(retrieveStorage);
-    }
-  }
+  
 
   function User(username, world, us, politics, business, technology, science, health, sports, arts, style, food, travel) {
     this.username = username || false;
