@@ -28,7 +28,6 @@
     this.Food = Food || false;
     this.Travel = Travel || false;
   }
-// TODO: WE HAVE A ONE OFF ERROR HERE IN THE LATE SECTION, FOR EXAMPLE, IF ARTS IS CLICKED, FOOD WILL DISPLAY.
 
   $('.settingsSubmit').on('click', function(e) {
     e.preventDefault();
@@ -47,9 +46,20 @@
             $('#food').is(':checked'),
             $('#travel').is(':checked'));
 
-    localStorage.setItem('sessionInfo', JSON.stringify(currentUser));
-    window.location.href = '/';
-  });
+  localStorage.setItem('sessionInfo', JSON.stringify(currentUser));
+  page(settingsController.createUrl(currentUser));
+});
 
-  module.settingsController = settingsController;
+settingsController.createUrl = function(User) {
+  var settingsArray = Object.keys(User).filter(function(prop) {
+    if (User[prop] === true) {
+      return prop;
+    }
+  });
+  let url = '/' + settingsArray.join('_');
+  console.log(url);
+  return url;
+};
+
+module.settingsController = settingsController;
 })(window);

@@ -23,7 +23,6 @@
         }
       }
 
-
       for(var i = 0; i < section.length; i++){
         $('#nyta').append('<H1>'+section[i]+'</H1>');
         for(var j = 0; j < nytaObject.all.length; j++) {
