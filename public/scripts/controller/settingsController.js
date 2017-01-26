@@ -47,14 +47,8 @@ $('.settingsSubmit').on('click', function(e) {
   $('#food').is(':checked'),
   $('#travel').is(':checked'));
 
-  console.log(currentUser);
-  settingsController.createUrl(currentUser);
-
-  // let url = '/' + currentUser.join('_');
-  // settingsController.setSections();
-
   localStorage.setItem('sessionInfo', JSON.stringify(currentUser));
-  // window.location.href = '/';
+  page(settingsController.createUrl(currentUser));
 });
 
 settingsController.createUrl = function(User) {
@@ -63,16 +57,10 @@ settingsController.createUrl = function(User) {
       return prop;
     }
   });
-  console.log(settingsArray);
+  let url = '/' + settingsArray.join('_');
+  console.log(url);
+  return url;
 };
 
-// settingsController.setSections = function(ctx) {
-//   if (ctx.sections.length) {
-//     ctx.params.sections = currentUser.join('_');
-//
-//   } else {
-//
-//   }
-// };
 module.settingsController = settingsController;
 })(window);
