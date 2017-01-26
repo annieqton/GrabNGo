@@ -14,7 +14,7 @@
 
   function User(username, World, us, Politics, Business, Technology, Science, Health, Sports, Arts, Style, Food, Travel) {
     this.username = username || false;
-    this.World = 'World' || false;
+    this.World = World || false;
     // TODO: WE NEED TO FIGURE THIS U.S. SECTION OUT
     this.us = us || false;
     this.Politics = Politics || false;
@@ -46,6 +46,8 @@
             $('#food').is(':checked'),
             $('#travel').is(':checked'));
 
+  console.log(currentUser);
+  // settingsController.createUrl(currentUser);
   localStorage.setItem('sessionInfo', JSON.stringify(currentUser));
   page(settingsController.createUrl(currentUser));
 });
@@ -55,9 +57,10 @@ settingsController.createUrl = function(User) {
     if (User[prop] === true) {
       return prop;
     }
+    console.log('settingsArray', settingsArray);
   });
-  let url = '/' + settingsArray.join('_');
-  console.log(url);
+  let url = '/sections/' + settingsArray.join('_');
+  console.log('url', url);
   return url;
 };
 
