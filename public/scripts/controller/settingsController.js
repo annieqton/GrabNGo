@@ -30,25 +30,37 @@
   }
 // TODO: WE HAVE A ONE OFF ERROR HERE IN THE LATE SECTION, FOR EXAMPLE, IF ARTS IS CLICKED, FOOD WILL DISPLAY.
 
-  $('.settingsSubmit').on('click', function(e) {
-    e.preventDefault();
+$('.settingsSubmit').on('click', function(e) {
+  e.preventDefault();
 
-    var currentUser = new User($('#username').val(),
-            $('#world').is(':checked'),
-            $('#us').is(':checked'),
-            $('#politics').is(':checked'),
-            $('#technology').is(':checked'),
-            $('#science').is(':checked'),
-            $('#health').is(':checked'),
-            $('#sports').is(':checked'),
-            $('#arts').is(':checked'),
-            $('#style').is(':checked'),
-            $('#food').is(':checked'),
-            $('#travel').is(':checked'));
 
-    localStorage.setItem('sessionInfo', JSON.stringify(currentUser));
-    window.location.href = '/';
+  var currentUser = new User($('#username').val(),
+  $('#world').is(':checked'),
+  $('#us').is(':checked'),
+  $('#politics').is(':checked'),
+  $('#technology').is(':checked'),
+  $('#science').is(':checked'),
+  $('#health').is(':checked'),
+  $('#sports').is(':checked'),
+  $('#arts').is(':checked'),
+  $('#style').is(':checked'),
+  $('#food').is(':checked'),
+  $('#travel').is(':checked'));
+
+  localStorage.setItem('sessionInfo', JSON.stringify(currentUser));
+  page(settingsController.createUrl(currentUser));
+});
+
+settingsController.createUrl = function(User) {
+  var settingsArray = Object.keys(User).filter(function(prop) {
+    if (User[prop] === true) {
+      return prop;
+    }
   });
+  let url = '/' + settingsArray.join('_');
+  console.log(url);
+  return url;
+};
 
-  module.settingsController = settingsController;
+module.settingsController = settingsController;
 })(window);
