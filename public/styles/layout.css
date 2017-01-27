@@ -18,19 +18,41 @@ margin-bottom: 5%;
 }
 
 #anna {
-
+  display: inline-block;
+  width: 45%;
 }
 
 #annie {
-
+  display: inline-block;
+  width: 45%;
 }
 
 #adrian {
-
+  display: inline-block;
+  width: 45%;
 }
 
 #khalid {
+  display: inline-block;
+  width: 45%;
+}
 
+.bio1 {
+  flex-direction: row;
+  display: inline-flex;
+  width: 48%;
+
+}
+.bio2 {
+  flex-direction: row;
+
+  display: inline-flex;
+  width: 48%;
+}
+
+img {
+  float: left;
+  overflow-x: auto;
 }
 
 /*mobile design 492 x 653*/
@@ -51,8 +73,8 @@ margin-bottom: 5%;
     display: inline;
   }
 
-  img {
+  /*img {
     width: 50%;
     display: inline-block;
-  }
+  }*/
 }
