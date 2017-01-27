@@ -35,13 +35,13 @@
   font-family: 'Faster One', cursive;
   color: #A93226;
   text-align: center;
-  font-size: 250%;
+  font-size: 2em;
   margin-bottom: 1%;
 }
 
 #tagline {
   font-family: 'Special Elite', cursive;
-  font-size: 60%;
+  font-size: 0.6em;
   margin-bottom: 5%;
   margin-left: 60%;
 }
@@ -108,6 +108,7 @@ footer {
   text-align: center;
   margin-bottom: 5%;
 }
+
 @media only screen and (min-width: 493px) {
   .icon-menu {
     display: none;
@@ -128,6 +129,17 @@ footer {
 
   .main-nav ul li:hover a {
 
+  }
+  #logo {
+    font-size: 4em;
+    margin: 0.3em 0 0 0;
+  }
+
+  #tagline {
+    font-family: 'Special Elite', cursive;
+    font-size: 0.75em;
+    margin-bottom: 5%;
+    margin-left: 60%;
   }
 
   img {

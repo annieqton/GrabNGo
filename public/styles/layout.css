@@ -49,14 +49,7 @@ margin-bottom: 5%;
   width: 48%;
 }
 
-img {
-  float: left;
-  overflow-x: auto;
-  clear: left;*/
-/*}*/
 
-
-/*mobile design 492 x 653*/
 @media only screen and (max-width: 492px) {
 
   .heading-group-h1 {
