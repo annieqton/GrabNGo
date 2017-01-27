@@ -7,18 +7,14 @@
     $('#userSettings').show().siblings().hide();
   };
 
-// TODO: CAN WE PASS A STRING TO A VARIABLE AND THEN ASSIGN THAT VARIABLE AS A PARAMETER IN A CONSTRUCTOR FUNCTION BELOW?
-  // var x = 'U.S.';
-  // var US = x;
-  // console.log(US);
 
-  function User(username, World, us, Politics, Business, Technology, Science, Health, Sports, Arts, Style, Food, Travel) {
+// Briefing, Opinion
+  function User(username, World, Briefing, Politics, Opinion, Technology, Science, Health, Sports, Arts, Style, Food, Travel) {
     this.username = username || false;
     this.World = World || false;
-    // TODO: WE NEED TO FIGURE THIS U.S. SECTION OUT
-    this.us = us || false;
+    this.Briefing = Briefing || false;
     this.Politics = Politics || false;
-    this.Business = Business || false;
+    this.Opinion = Opinion || false;
     this.Technology = Technology || false;
     this.Science = Science || false;
     this.Health = Health || false;
@@ -34,9 +30,9 @@
 
     var currentUser = new User($('#username').val(),
             $('#world').is(':checked'),
-            $('#us').is(':checked'),
+            $('#briefing').is(':checked'),
             $('#politics').is(':checked'),
-            $('#business').is(':checked'),
+            $('#opinion').is(':checked'),
             $('#technology').is(':checked'),
             $('#science').is(':checked'),
             $('#health').is(':checked'),
@@ -54,7 +50,7 @@
 
 settingsController.createUrl = function(User) {
   var settingsArray = Object.keys(User).filter(function(prop) {
-    if (User[prop] === true) {
+    if (!User[prop] === false) {
       return prop;
     }
     console.log('settingsArray', settingsArray);

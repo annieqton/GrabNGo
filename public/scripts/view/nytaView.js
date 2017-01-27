@@ -3,11 +3,16 @@
 (function(module) {
   var nytaView = {};
 
+
   var ui = function() {
     $('#nyta').show().siblings().hide();
   };
 
   nytaView.index = function() {
+
+    // nytaView.filterSections();
+    console.log('Object called from NYT', nytaObject.all);
+
     if(localStorage.sessionInfo){
       var retrieveStorage = localStorage.getItem('sessionInfo');
       var currentUser = JSON.parse(retrieveStorage);
