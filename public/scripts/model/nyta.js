@@ -13,7 +13,6 @@
       method: 'GET'
     })
     .done(function(data) {
-      // console.log(data.results);
       nytaObject.all = data.results;
     })
     .done(callback);

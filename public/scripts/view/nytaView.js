@@ -3,11 +3,16 @@
 (function(module) {
   var nytaView = {};
 
+
   var ui = function() {
     $('#nyta').show().siblings().hide();
   };
 
   nytaView.index = function() {
+
+    nytaView.filterSections();
+    console.log('Object called from NYT', nytaObject.all);
+
     if(localStorage.sessionInfo){
       var retrieveStorage = localStorage.getItem('sessionInfo');
       var currentUser = JSON.parse(retrieveStorage);
@@ -43,6 +48,17 @@
       // console.log(nytaObject.all.length);
     }
   };
+
+  nytaView.filterSections = function () {
+    nytaObject.all = nytaObject.all.forEach(function(element) {
+      if(element.section === "U.S.") {
+        element.section = "America";
+      }
+      if(element.section === "Business Day") {
+        element.section = "Business";
+      }
+    });
+  }
 
   module.nytaView = nytaView;
 })(window);
