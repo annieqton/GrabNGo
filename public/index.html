@@ -48,8 +48,7 @@
         <!-- TODO: STILL NEED TO FIX DISPLAY DATE. CONSOLE LOG SHOWS CORRECT SYSTEM DATE/TIME BUT WHEN DISPLAY IT SHOWS OLD DATE -->
         <div id='dateDisplay'></div>
         <script>
-        var d = new Date();
-        d.setDate(15);
+        var d = new Date().toString().substring(0, 15)
         document.getElementById("dateDisplay").innerHTML = d;
         </script>
 
@@ -77,7 +76,7 @@
           <li><input type="checkbox" id="us" value="U.S."></input>  US</li>
           <li><input type="checkbox" id="politics" value="Politics"></input>  Politics</li>
           <li><input type="checkbox" id="technology" value="Technology"></input>  Technology</li>
-          <li><input type="checkbox" id="business" value="Business"></input>  Business</li>
+            <li><input type="checkbox" id="business" value="Business"></input>  Business</li>
           <li><input type="checkbox" id="science" value="Science"></input>  Science</li>
           <li><input type="checkbox" id="health" value="Health"></input>  Health</li>
           <li><input type="checkbox" id="sports" value="Sports"></input>  Sports</li>
@@ -95,12 +94,13 @@
         <div class="profile">
 
           <div id="anna">
-            <img src="/img/anna.jpg"/>
+            <img src="/img/annapic2.jpg"/>
             <h4>Fun facts about Anna:</h4>
             <ol>
-              <li>fun fact 1</li>
-              <li>fun fact 2</li>
-              <li>fun fact 3</li>
+              <li>Born in the fine city of Rostov, in the Russian Federation.</li>
+              <li>Enjoys any film about time travel.</li>
+              <li>Owns a 17 year old cat that she brought with her from Russia. Her cat had a sex change operation in 2005.</li>
+              <li> Is unable to drink warm beverages following a salty meal without experiencing nausea. </li>
             </ol>
           </div>
 
@@ -108,29 +108,29 @@
             <img src="/img/annie.jpg" />
             <h4>Fun facts about Annie:</h4>
             <ol>
-              <li>fun fact 1</li>
-              <li>fun fact 2</li>
-              <li>fun fact 3</li>
+              <li> She is unable to swim.</li>
+              <li>She has been to the Sahara Desert.</li>
+              <li>She bungee jumped off of a crane in France.</li>
             </ol>
           </div>
 
           <div id="adrian">
-            <img src="/img/adrian.jpg" />
+            <img src="/img/adrianpic.jpg" />
             <h4>Fun facts about Adrian:</h4>
             <ol>
-              <li>fun fact 1</li>
-              <li>fun fact 2</li>
-              <li>fun fact 3</li>
+              <li>Watches Tom Brady's NFL Combine 40 yard dash video whenever he isn't feeling well.</li>
+              <li>Spends a lot of time with guns and bows.</li>
+              <li>Lived on a submarine for several years.</li>
             </ol>
           </div>
 
           <div id="khalid">
-            <img src="/img/khalid.jpg" />
+            <img src="/img/khalidpic.jpg" />
             <h4>Fun facts about Khalid:</h4>
             <ol>
-              <li>fun fact 1</li>
-              <li>fun fact 2</li>
-              <li>fun fact 3</li>
+              <li>Born and raised in the great city of Seattle, WA.</li>
+              <li>Favorite Film: The Resonance  </li>
+              <li>I bandwagon with any team that wins. Right now it's FC Barcelona. Go Seahawks.</li>
             </ol>
           </div>
 
