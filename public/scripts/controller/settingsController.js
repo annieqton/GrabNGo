@@ -7,12 +7,14 @@
     $('#userSettings').show().siblings().hide();
   };
 
-  function User(username, World, America, Politics, Business, Technology, Science, Health, Sports, Arts, Style, Food, Travel) {
+
+// Briefing, Opinion
+  function User(username, World, Briefing, Politics, Opinion, Technology, Science, Health, Sports, Arts, Style, Food, Travel) {
     this.username = username || false;
     this.World = World || false;
-    this.America = America || false;
+    this.Briefing = Briefing || false;
     this.Politics = Politics || false;
-    this.Business = Business || false;
+    this.Opinion = Opinion || false;
     this.Technology = Technology || false;
     this.Science = Science || false;
     this.Health = Health || false;
@@ -28,9 +30,9 @@
 
     var currentUser = new User($('#username').val(),
             $('#world').is(':checked'),
-            $('#us').is(':checked'),
+            $('#briefing').is(':checked'),
             $('#politics').is(':checked'),
-            $('#business').is(':checked'),
+            $('#opinion').is(':checked'),
             $('#technology').is(':checked'),
             $('#science').is(':checked'),
             $('#health').is(':checked'),
