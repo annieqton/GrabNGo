@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +21,90 @@
           <!-- <p>{{published_date}}</p> -->
         </div>
         <div class="abstract">{{abstract}}</div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/vendor/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/modules.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One|Jacques+Francois+Shadow|Monofett|Seaweed+Script|Special+Elite|Stardos+Stencil" rel="stylesheet">
+    <title>grab'n go</title>
+
+    <script id="nyta-template" type="text/x-handlebars-template">
+      <article class="clearfix">
+        <section><a href="{{url}}" target="_blank">
+          <h3>{{title}}</h3></a>
+          <div class="byline">
+            <h6>{{byline}}</h6>
+            <!-- <p>{{published_date}}</p> -->
+          </div>
+          <div class="abstract">{{abstract}}</div>
+        </section>
+      </article>
+    </script>
+
+  </head>
+
+  <body>
+
+    <header class="site-header clearfix">
+
+      <nav class="main-nav">
+        <div class="icon-menu"></div>
+        <ul>
+          <li class="tab" data-content="articles"><a href="/" class="icon-home3"> HOME</a></li>
+          <li class="tab" data-content="settings"><a href="/settings" class="icon-settings"> SETTINGS</a></li>
+          <li class="tab" data-content="about"><a href="/about" class="icon-info"> ABOUT</a></li>
+        </ul>
+      </nav>
+
+      <section class="heading-group-h1">
+
+        <h1 id="logo">grab 'n go</h1>
+        <div id="tagline">news at your fingertip</div>
+        <div id="welcome">Welcome!</div>
+
+        <!-- TODO: STILL NEED TO FIX DISPLAY DATE. CONSOLE LOG SHOWS CORRECT SYSTEM DATE/TIME BUT WHEN DISPLAY IT SHOWS OLD DATE -->
+        <div id='dateDisplay'></div>
+        <script>
+        var d = new Date().toString().substring(0, 15)
+        document.getElementById("dateDisplay").innerHTML = d;
+        </script>
+
+        <!-- TODO: STRETCH GOAL: BRING IN WEATHER API -->
+
+      </section>
+
+    </header>
+
+    <main>
+      <section id="nyta" class="tab-content">
+
+      </section>
+
+      <section id="userSettings" class="tab-content">
+
+        <h5>Username: <input type="text" id="username"></input></h5>
+
+        <p id="category">News Preferences (please select categories below):</p>
+
+        <form class="preferences">
+          <li><input type="checkbox" id="world" value="World"></input> World</li>
+          <li><input type="checkbox" id="briefing" value="Briefing"></input>  Briefing</li>
+          <li><input type="checkbox" id="politics" value="Politics"></input>  Politics</li>
+          <li><input type="checkbox" id="technology" value="Technology"></input>  Technology</li>
+          <li><input type="checkbox" id="opinion" value="Opinion"></input>  Opinion</li>
+          <li><input type="checkbox" id="science" value="Science"></input>  Science</li>
+          <li><input type="checkbox" id="health" value="Health"></input>  Health</li>
+          <li><input type="checkbox" id="sports" value="Sports"></input>  Sports</li>
+          <li><input type="checkbox" id="arts" value="Arts"></input>  Arts</li>
+          <li><input type="checkbox" id="style" value="Style"></input>  Style</li>
+          <li><input type="checkbox" id="food" value="Food"></input>  Food</li>
+          <li><input type="checkbox" id="travel" value="Travel"></input>  Travel</li>
+          <p><input class="settingsSubmit" type="submit" value="submit"></input></p>
+        </form>
       </section>
     </article>
   </script>

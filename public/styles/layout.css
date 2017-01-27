@@ -57,7 +57,7 @@ img {
 
 
 /*mobile design 492 x 653*/
-@media only screen and (min-width: 492px) {
+@media only screen and (max-width: 492px) {
 
   .heading-group-h1 {
     padding: .1em .1em .1em 2em;
