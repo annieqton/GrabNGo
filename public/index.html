@@ -1,5 +1,26 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/vendor/styles/normalize.css">
+  <link rel="stylesheet" href="/styles/base.css">
+  <link rel="stylesheet" href="/styles/layout.css">
+  <link rel="stylesheet" href="/styles/modules.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Faster+One|Jacques+Francois+Shadow|Monofett|Seaweed+Script|Special+Elite|Stardos+Stencil" rel="stylesheet">
+  <title>grab'n go</title>
+
+  <script id="nyta-template" type="text/x-handlebars-template">
+    <article class="clearfix">
+      <section><a href="{{url}}" target="_blank">
+        <h3>{{title}}</h3></a>
+        <div class="byline">
+          <h6>{{byline}}</h6>
+          <!-- <p>{{published_date}}</p> -->
+        </div>
+        <div class="abstract">{{abstract}}</div>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -84,55 +105,133 @@
           <li><input type="checkbox" id="travel" value="Travel"></input>  Travel</li>
           <p><input class="settingsSubmit" type="submit" value="submit"></input></p>
         </form>
-
       </section>
+    </article>
+  </script>
 
-      <section id="about" class="tab-content">
+</head>
 
-        <div class="profile">
+<body>
 
-          <div id="anna">
-            <img src="/img/annapic2.jpg"/>
-            <h4>Fun facts about Anna:</h4>
-            <ol>
-              <li>Born in the fine city of Rostov, in the Russian Federation.</li>
-              <li>Enjoys any film about time travel.</li>
-              <li>Owns a 17 year old cat that she brought with her from Russia. Her cat had a sex change operation in 2005.</li>
-              <li> Is unable to drink warm beverages following a salty meal without experiencing nausea. </li>
-            </ol>
-          </div>
+  <header class="site-header clearfix">
 
-          <div id="annie">
-            <img src="/img/annie.jpg" />
-            <h4>Fun facts about Annie:</h4>
-            <ol>
-              <li> She is unable to swim.</li>
-              <li>She has been to the Sahara Desert.</li>
-              <li>She bungee jumped off of a crane in France.</li>
-            </ol>
-          </div>
+    <nav class="main-nav">
+      <div class="icon-menu"></div>
+      <ul>
+        <li class="tab" data-content="articles"><a href="/" class="icon-home3"> HOME</a></li>
+        <li class="tab" data-content="settings"><a href="/settings" class="icon-settings"> SETTINGS</a></li>
+        <li class="tab" data-content="about"><a href="/about" class="icon-info"> ABOUT</a></li>
+      </ul>
+    </nav>
 
-          <div id="adrian">
-            <img src="/img/adrianpic.jpg" />
-            <h4>Fun facts about Adrian:</h4>
-            <ol>
-              <li>Watches Tom Brady's NFL Combine 40 yard dash video whenever he isn't feeling well.</li>
-              <li>Spends a lot of time with guns and bows.</li>
-              <li>Lived on a submarine for several years.</li>
-            </ol>
-          </div>
+    <section class="heading-group-h1">
 
-          <div id="khalid">
-            <img src="/img/khalidpic.jpg" />
-            <h4>Fun facts about Khalid:</h4>
-            <ol>
-              <li>Born and raised in the great city of Seattle, WA.</li>
-              <li>Favorite Film: The Resonance  </li>
-              <li>I bandwagon with any team that wins. Right now it's FC Barcelona. Go Seahawks.</li>
-            </ol>
-          </div>
+      <h1 id="logo">grab 'n go</h1>
+      <div id="tagline">news at your fingertip</div>
+      <div id="welcome">Welcome!</div>
 
-        </div>
+      <!-- TODO: STILL NEED TO FIX DISPLAY DATE. CONSOLE LOG SHOWS CORRECT SYSTEM DATE/TIME BUT WHEN DISPLAY IT SHOWS OLD DATE -->
+      <div id='dateDisplay'></div>
+      <script>
+      var d = new Date().toString().substring(0, 15)
+      document.getElementById("dateDisplay").innerHTML = d;
+      </script>
+
+      <!-- TODO: STRETCH GOAL: BRING IN WEATHER API -->
+
+    </section>
+
+  </header>
+
+  <main>
+    <section id="nyta" class="tab-content">
+
+    </section>
+
+    <section id="userSettings" class="tab-content">
+
+      <h5>Username: <input type="text" id="username"></input></h5>
+
+      <p id="category">News Preferences (please select categories below):</p>
+
+      <form class="preferences">
+        <li><input type="checkbox" id="world" value="World"></input> World</li>
+
+        <!-- NEED TO FIX U.S. IN THE VALUE -->
+        <li><input type="checkbox" id="us" value="U.S."></input>  US</li>
+        <li><input type="checkbox" id="politics" value="Politics"></input>  Politics</li>
+        <li><input type="checkbox" id="technology" value="Technology"></input>  Technology</li>
+        <li><input type="checkbox" id="business" value="Business"></input>  Business</li>
+        <li><input type="checkbox" id="science" value="Science"></input>  Science</li>
+        <li><input type="checkbox" id="health" value="Health"></input>  Health</li>
+        <li><input type="checkbox" id="sports" value="Sports"></input>  Sports</li>
+        <li><input type="checkbox" id="arts" value="Arts"></input>  Arts</li>
+        <li><input type="checkbox" id="style" value="Style"></input>  Style</li>
+        <li><input type="checkbox" id="food" value="Food"></input>  Food</li>
+        <li><input type="checkbox" id="travel" value="Travel"></input>  Travel</li>
+        <p><input class="settingsSubmit" type="submit" value="submit"></input></p>
+      </form>
+
+    </section>
+
+    <section id="about" class="tab-content">
+
+      <ul id="bios">
+        <li>
+          <div class="profile">
+            <div class="bio1">
+              <div id="anna">
+                <img src="/img/annapic2.jpg"/>
+                <h4>Fun facts about Anna:</h4>
+                <ol>
+                  <li>Born in the fine city of Rostov, in the Russian Federation.</li>
+                  <li>Enjoys any film about time travel.</li>
+                  <li>Owns a 17 year old cat that she brought with her from Russia. Her cat had a sex change operation in 2005.</li>
+                  <li> Is unable to drink warm beverages following a salty meal without experiencing nausea. </li>
+                </ol>
+              </div>
+            </li>
+            <li>
+              <div id="annie" >
+                <img src="/img/annie.jpg" />
+                <h4>Fun facts about Annie:</h4>
+                <ol>
+                  <li> She is unable to swim.</li>
+                  <li>She has been to the Sahara Desert.</li>
+                  <li>She bungee jumped off of a crane in France.</li>
+                </ol>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="bio2">
+              <div id="adrian">
+                <img src="/img/adrianpic.jpg" />
+                <h4>Fun facts about Adrian:</h4>
+                <ol>
+                  <li>Watches Tom Brady's NFL Combine 40 yard dash video whenever he isn't feeling well.</li>
+                  <li>Spends a lot of time with guns and bows.</li>
+                  <li>Lived on a submarine for several years.</li>
+                </ol>
+
+              </div>
+            </li>
+
+            <li>
+              <div id="khalid">
+                <img src="/img/khalidpic.jpg" />
+                <h4>Fun facts about Khalid:</h4>
+                <ol>
+                  <li>Born and raised in the great city of Seattle, WA.</li>
+                  <li>Favorite Film: The Resonance  </li>
+                  <li>I bandwagon with any team that wins. Right now it's FC Barcelona. Go Seahawks.</li>
+                </ol>
+              </div>
+            </div>
+          </li>
+        </ul>
+
       </section>
 
     </main>
@@ -155,4 +254,4 @@
 
     <script src="/scripts/controller/routes.js"></script>
   </body>
-</html>
+  </html>
