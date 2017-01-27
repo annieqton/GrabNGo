@@ -7,8 +7,6 @@
     $('#userSettings').show().siblings().hide();
   };
 
-
-// Briefing, Opinion
   function User(username, World, Briefing, Politics, Opinion, Technology, Science, Health, Sports, Arts, Style, Food, Travel) {
     this.username = username || false;
     this.World = World || false;
@@ -42,23 +40,23 @@
             $('#food').is(':checked'),
             $('#travel').is(':checked'));
 
-  console.log(currentUser);
-  // settingsController.createUrl(currentUser);
-  localStorage.setItem('sessionInfo', JSON.stringify(currentUser));
-  page(settingsController.createUrl(currentUser));
-});
+    // console.log(currentUser);
 
-settingsController.createUrl = function(User) {
-  var settingsArray = Object.keys(User).filter(function(prop) {
-    if (!User[prop] === false) {
-      return prop;
-    }
-    console.log('settingsArray', settingsArray);
+    localStorage.setItem('sessionInfo', JSON.stringify(currentUser));
+    page(settingsController.createUrl(currentUser));
   });
-  let url = '/sections/' + settingsArray.join('_');
-  console.log('url', url);
-  return url;
-};
+
+  settingsController.createUrl = function(User) {
+    var settingsArray = Object.keys(User).filter(function(prop) {
+      if (!User[prop] === false) {
+        return prop;
+      }
+      // console.log('settingsArray', settingsArray);
+    });
+    let url = '/sections/' + settingsArray.join('_');
+    // console.log('url', url);
+    return url;
+  };
 
 module.settingsController = settingsController;
 })(window);

@@ -29,14 +29,14 @@
       }
 
       for(var i = 0; i < section.length; i++){
-        $('#nyta').append('<H1>'+section[i]+'</H1>');
+        $('#nyta').append('<H2 id="section">'+section[i]+'</H2>');
         for(var j = 0; j < nytaObject.all.length; j++) {
           if(nytaObject.all[j].section === section[i]) {
             var render  = Handlebars.compile($('#nyta-template').html());
             $('#nyta').append(render(nytaObject.all[j]));
           }
         }
-        $('#nyta').append('<HR />');
+        // $('#nyta').append('<HR />');
       }
     } else {
 

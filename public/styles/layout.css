@@ -1,8 +1,6 @@
 .main-nav {
-  /*display: inline-block;*/
+  margin-left: 4%;
 }
-
-
 
 .preferences {
 display: inline-block;
@@ -15,60 +13,65 @@ margin-bottom: 5%;
 
 .settingsSubmit {
   margin-top: 5%;
+  border-radius: 8px;
+}
+
+.profile {
+  margin: 0 auto;
 }
 
 #anna {
   display: inline-block;
-  width: 45%;
+  margin-right: 10%;
+  margin-top: 2%;
 }
 
 #annie {
   display: inline-block;
-  width: 45%;
+  position: relative;
+  margin-left: 10%;
 }
 
 #adrian {
   display: inline-block;
-  width: 45%;
+  margin-right: 10%;
 }
 
 #khalid {
   display: inline-block;
-  width: 45%;
+  margin-left: 10%;
 }
 
-/*.bio1 {
-  flex-direction: row;
-  /*display: inline-flex;*/
-  /*width: 48%;
-
-}*/
-/*.bio2 {
-  flex-direction: row;
-  display: inline-flex;
-  width: 48%;
+#team {
+  text-align: center;
 }
 
+.one div {
+  margin-left: 10%;
+}
 
-@media only screen and (max-width: 492px) {
+.two div {
+  margin-left: 10%;
+}
 
-  .heading-group-h1 {
-    padding: .1em .1em .1em 2em;
-    float: none;
-  }
+#description {
+  margin-left: 5%;
+}
 
-  #filters select {
-    width: 15em;
-    margin: .2em .2em;
-  }
+.img-wrapper {
+  width: 80%;
+  height: 0;
+  padding-bottom: 79.5%;
+  border: 2px solid black;
+  position: relative;
+}
 
-  #filters li {
-    width: 20em;
-    display: inline;
-  }
+img {
+  width: 100%;
+  position: absolute;
+}
 
-  /*img {
-    width: 50%;
-    display: inline-block;
-  }*/
+figcaption {
+  text-align: center;
+  padding-top: 1em;
 }

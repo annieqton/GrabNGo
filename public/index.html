@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="/styles/layout.css">
     <link rel="stylesheet" href="/styles/modules.css">
     <link rel="stylesheet" href="/styles/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Faster+One|Jacques+Francois+Shadow|Monofett|Seaweed+Script|Special+Elite|Stardos+Stencil" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Faster+One|Special+Elite" rel="stylesheet">
     <title>grab'n go</title>
 
     <script id="nyta-template" type="text/x-handlebars-template">
       <article class="clearfix">
         <section><a href="{{url}}" target="_blank">
-          <h3>{{title}}</h3></a>
+          <h3 id="title">{{title}}</h3></a>
           <div class="byline">
             <h6>{{byline}}</h6>
             <!-- <p>{{published_date}}</p> -->
           </div>
           <div class="abstract">{{abstract}}</div>
+          <hr class="horizontal"></hr>
         </section>
       </article>
     </script>
@@ -85,64 +86,82 @@
     <section id="about" class="tab-content">
 
       <ul id="bios">
-        <li>
           <div class="profile">
-            <div class="bio1">
-              <div id="anna">
-                <img src="/img/annapic2.jpg"/>
-                <h4>Fun facts about Anna:</h4>
+
+            <h2 id="team">Fun facts about team <span>A</span>nna - <span>A</span>nnie - <span>A</span>drian - kh<span>A</span>lid</h2>
+
+            <div class="one">
+            <div id="anna">
+              <div class="img-wrapper">
+                <img src="/img/anna.jpg"/>
+              </div>
+              <figcaption>Anna Ulanova</figcaption>
+              <p id="description">
                 <ol>
                   <li>Born in the fine city of Rostov, in the Russian Federation.</li>
                   <li>Enjoys any film about time travel.</li>
                   <li>Owns a 17 year old cat that she brought with her from Russia. Her cat had a sex change operation in 2005.</li>
-                  <li> Is unable to drink warm beverages following a salty meal without experiencing nausea. </li>
+                  <!-- <li> Is unable to drink warm beverages following a salty meal without experiencing nausea. </li> -->
                 </ol>
-              </div>
-            </li>
-            <li>
+              </p>
+          </div>
+
               <div id="annie" >
-                <img src="/img/annie.jpg" />
-                <h4>Fun facts about Annie:</h4>
-                <ol>
-                  <li> She is unable to swim.</li>
-                  <li>She has been to the Sahara Desert.</li>
-                  <li>She bungee jumped off of a crane in France.</li>
-                </ol>
+                <div class="img-wrapper">
+                  <img src="/img/annie.jpg" />
+                </div>
+                <figcaption>Annie Ton-Nu</figcaption>
+                <p id="description">
+                  <ol>
+                    <li>Sinks like a rock!</li>
+                    <li>Watched the sunrise in the Sahara Desert.</li>
+                    <li>Bungee jumped off of a crane in southern France.</li>
+                    <li class="hidden"></li>
+                    <li class="hidden"></li>
+                    <li class="hidden"></li>
+                  </ol>
+                </p>
               </div>
             </div>
-          </li>
 
-          <li>
-            <div class="bio2">
-              <div id="adrian">
-                <img src="/img/adrianpic.jpg" />
-                <h4>Fun facts about Adrian:</h4>
+
+            <div class="two">
+            <div id="adrian">
+              <div class="img-wrapper">
+                <img src="/img/adrian.jpg" />
+              </div>
+              <figcaption>Adrian Valmont</figcaption>
+              <p id="description">
                 <ol>
                   <li>Watches Tom Brady's NFL Combine 40 yard dash video whenever he isn't feeling well.</li>
                   <li>Spends a lot of time with guns and bows.</li>
                   <li>Lived on a submarine for several years.</li>
                 </ol>
+              </p>
+            </div>
 
+            <div id="khalid">
+              <div class="img-wrapper">
+                <img src="/img/khalid.jpg" />
               </div>
-            </li>
-
-            <li>
-              <div id="khalid">
-                <img src="/img/khalidpic.jpg" />
-                <h4>Fun facts about Khalid:</h4>
+              <figcaption>Khalid Mohamud</figcaption>
+              <p id="description">
                 <ol>
                   <li>Born and raised in the great city of Seattle, WA.</li>
-                  <li>Favorite Film: The Resonance  </li>
-                  <li>I bandwagon with any team that wins. Right now it's FC Barcelona. Go Seahawks.</li>
+                  <li>Favorite Film: The Resonance </li>
+                  <li>I bandwagon with any team that wins. Right now it's FC Barcelona. Go Seahawks!!!</li>
+                  <li class="hidden"></li>
                 </ol>
-              </div>
+              <p>
             </div>
-          </li>
-        </ul>
+          </div>
+
+          </div>
 
       </section>
 
     </main>
+
     <footer> Powered by New York Times - 2017</footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
