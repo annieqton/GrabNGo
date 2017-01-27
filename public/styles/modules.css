@@ -42,19 +42,29 @@
 #tagline {
   font-family: 'Special Elite', cursive;
   font-size: 0.6em;
+  margin-top: 1%;
   margin-bottom: 5%;
   margin-left: 60%;
 }
 
 #welcome {
-  font-size: 80%;
   color: #5F6061;
+  margin-top: 1%;
 }
 
 #dateDisplay {
   float: right;
-  font-size: 60%;
   color: #5F6061;
+}
+
+#section {
+  background-color: #E5E7E9;
+  padding: 0.3em 0 0.3em 0.3em;
+}
+
+.horizontal {
+  border-color: #BDC3C7;
+  border-style: dotted;
 }
 
 li {
@@ -64,6 +74,7 @@ li {
 ol li {
   list-style: circle;
 }
+
 #category {
   font-style: italic;
   font-size: 80%;
@@ -77,13 +88,15 @@ ol li {
 
 }
 
+span {
+  color: #A93226;
+  font-weight: bold;
+  font-family: 'Special Elite', cursive;
+}
+
 .profiles {
   height: 500px;
   background-color: white;
-}
-
-img {
-  width: 200px;
 }
 
 #anna {
@@ -103,10 +116,18 @@ img {
 }
 
 footer {
-  font-size: 0.3em;
+  font-size: 0.7em;
   font-style: italic;
   text-align: center;
   margin-bottom: 5%;
+}
+
+figcaption {
+  font-family: 'Special Elite', cursive;
+}
+
+#hidden ol li{
+  list-style: none;
 }
 
 @media only screen and (min-width: 493px) {
@@ -142,14 +163,7 @@ footer {
     margin-left: 60%;
   }
 
-  img {
-    width: 50%;
-    display: inline-block;
+
+  #description {
+    font-size: 10px;
   }
-}
-/*font-family: 'Special Elite', cursive;*/
-/*font-family: 'Stardos Stencil', cursive;*/
-/*font-family: 'Seaweed Script', cursive;*/
-/*font-family: 'Monofett', cursive;*/
-/*font-family: 'Faster One', cursive;*/
-/*font-family: 'Jacques Francois Shadow', cursive;*/

@@ -28,7 +28,7 @@
         element.section = "Business";
       }
     nytaObject.all = filterObject;
-    console.log(filterObject);
+    // console.log(filterObject);
     });
   }
 
