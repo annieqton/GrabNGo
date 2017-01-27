@@ -37,15 +37,14 @@ margin-bottom: 5%;
   width: 45%;
 }
 
-.bio1 {
+/*.bio1 {
   flex-direction: row;
-  display: inline-flex;
-  width: 48%;
+  /*display: inline-flex;*/
+  /*width: 48%;
 
-}
-.bio2 {
+}*/
+/*.bio2 {
   flex-direction: row;
-
   display: inline-flex;
   width: 48%;
 }
@@ -53,7 +52,9 @@ margin-bottom: 5%;
 img {
   float: left;
   overflow-x: auto;
-}
+  clear: left;*/
+/*}*/
+
 
 /*mobile design 492 x 653*/
 @media only screen and (min-width: 492px) {
