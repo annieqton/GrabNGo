@@ -7,5 +7,3 @@ page('/about', aboutController.index);
 page('/sections/:userSelections?', nytaController.index); //add controller to display filtered articles
 
 page();
-
-// TODO: ADD CODES FOR MIDDLEWARE
