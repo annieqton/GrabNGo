@@ -30,6 +30,3 @@ app.get('*', function(request, response) {
 app.listen(port, function() {
   console.log('Server started on port ' + port + '!');
 });
-
-
-// TODO: DEPLOY TO HEROKU
